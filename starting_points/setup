@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+
+for code in $( echo "2DQT 5SWN 8BRB 3I53 2A2C 1BG0" ); do
+
+    dirname=$(echo $code | tr '[:upper:]' '[:lower:]');
+
+    echo $dirname
+
+    if [ ! -d $dirname ]; then
+        mkdir -p $dirname   
+    fi
+    
+    wget "https://files.rcsb.org/download/$code.pdb"
+
+
+    mv "$code.pdb" $dirname/raw_pdb.pdb
+
+
+done;
+
+

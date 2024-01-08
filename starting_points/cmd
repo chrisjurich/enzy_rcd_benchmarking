@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+
+for pp in $( find . -name 'raw_pdb.pdb' ); do
+
+    pushd $( dirname $pp);
+    python ../fill_loops.py || exit 1;
+    popd;
+
+done;
