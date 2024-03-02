@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+obabel -i pdb start.pdb -o pdbqt -O start.pdbqt -p 7 -xr
+obabel -i mol2 FAH.mol2 -o pdbqt -O FAH.pdbqt -p 7 -xr
+

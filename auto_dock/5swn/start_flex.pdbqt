@@ -1,0 +1,90 @@
+BEGIN_RES ARG A 108
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+REMARK    3  A    between atoms: CG   and  CD  
+REMARK    4  A    between atoms: CD   and  NE  
+REMARK       I    between atoms: NE   and  CZ  
+REMARK       I    between atoms: CZ   and  NH2 
+REMARK       I    between atoms: CZ   and  NH1 
+ROOT
+ATOM      1  CA  ARG A 108       4.967  -7.481  32.869  0.00  0.00     0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ARG A 108       6.076  -8.385  33.443  0.00  0.00     0.000 C 
+BRANCH   2   3
+ATOM      3  CG  ARG A 108       5.729  -9.035  34.789  0.00  0.00     0.000 C 
+BRANCH   3   4
+ATOM      4  CD  ARG A 108       5.148  -8.086  35.841  0.00  0.00     0.000 C 
+BRANCH   4   5
+ATOM      5  NE  ARG A 108       6.237  -7.200  36.340  0.00  0.00     0.000 N 
+ATOM      6  CZ  ARG A 108       5.968  -6.308  37.337  0.00  0.00     0.000 C 
+ATOM      7  NH2 ARG A 108       4.709  -6.236  37.860  0.00  0.00     0.000 NA
+ATOM      8  NH1 ARG A 108       6.951  -5.490  37.812  0.00  0.00     0.000 N 
+ATOM      9  H   ARG A 108       4.367  -7.154  37.959  0.00  0.00     0.000 HD
+ATOM     10  H   ARG A 108       3.999  -6.826  37.518  0.00  0.00     0.000 HD
+ATOM     11  H   ARG A 108       4.511  -5.594  38.580  0.00  0.00     0.000 HD
+ATOM     12  H   ARG A 108       7.859  -5.542  37.435  0.00  0.00     0.000 HD
+ATOM     13  H   ARG A 108       6.752  -4.848  38.532  0.00  0.00     0.000 HD
+ATOM     14  H   ARG A 108       7.141  -7.258  35.955  0.00  0.00     0.000 HD
+ENDBRANCH   4   5
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES ARG A 108
+BEGIN_RES ARG A 111
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  CG  
+REMARK    7  A    between atoms: CG   and  CD  
+REMARK    8  A    between atoms: CD   and  NE  
+REMARK       I    between atoms: NE   and  CZ  
+REMARK       I    between atoms: CZ   and  NH2 
+REMARK       I    between atoms: CZ   and  NH1 
+ROOT
+ATOM     15  CA  ARG A 111       4.816  -2.858  31.053  0.00  0.00     0.000 C 
+ENDROOT
+BRANCH  15  16
+ATOM     16  CB  ARG A 111       5.228  -3.221  32.487  0.00  0.00     0.000 C 
+BRANCH  16  17
+ATOM     17  CG  ARG A 111       4.008  -3.642  33.309  0.00  0.00     0.000 C 
+BRANCH  17  18
+ATOM     18  CD  ARG A 111       4.263  -3.872  34.797  0.00  0.00     0.000 C 
+BRANCH  18  19
+ATOM     19  NE  ARG A 111       3.008  -4.463  35.340  0.00  0.00     0.000 N 
+ATOM     20  H   ARG A 111       2.954  -5.431  35.509  0.00  0.00     0.000 HD
+ATOM     21  CZ  ARG A 111       1.932  -3.665  35.604  0.00  0.00     0.000 C 
+ATOM     22  NH2 ARG A 111       0.764  -4.221  36.038  0.00  0.00     0.000 N 
+ATOM     23  NH1 ARG A 111       2.019  -2.316  35.416  0.00  0.00     0.000 NA
+ATOM     24  H   ARG A 111       0.702  -5.194  36.173  0.00  0.00     0.000 HD
+ATOM     25  H   ARG A 111      -0.017  -3.649  36.216  0.00  0.00     0.000 HD
+ATOM     26  H   ARG A 111       2.862  -1.916  35.103  0.00  0.00     0.000 HD
+ATOM     27  H   ARG A 111       1.238  -1.743  35.594  0.00  0.00     0.000 HD
+ATOM     28  H   ARG A 111       2.477  -1.450  35.321  0.00  0.00     0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+END_RES ARG A 111
+BEGIN_RES HIS A 152
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    9  A    between atoms: CA   and  CB  
+REMARK   10  A    between atoms: CB   and  CG  
+ROOT
+ATOM     29  CA  HIS A 152       1.806  -9.549  45.506  0.00  0.00     0.000 C 
+ENDROOT
+BRANCH  29  30
+ATOM     30  CB  HIS A 152       1.674 -10.552  44.339  0.00  0.00     0.000 C 
+BRANCH  30  31
+ATOM     31  CG  HIS A 152       1.167  -9.984  43.048  0.00  0.00     0.000 A 
+ATOM     32  ND1 HIS A 152      -0.151  -9.671  42.800  0.00  0.00     0.000 N 
+ATOM     33  H   HIS A 152      -0.903  -9.757  43.429  0.00  0.00     0.000 HD
+ATOM     34  CE1 HIS A 152      -0.213  -9.221  41.521  0.00  0.00     0.000 A 
+ATOM     35  NE2 HIS A 152       0.969  -9.223  40.932  0.00  0.00     0.000 NA
+ATOM     36  CD2 HIS A 152       1.837  -9.704  41.896  0.00  0.00     0.000 A 
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+END_RES HIS A 152

@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+~/projects/autodock_vina_1_1_2_mac_catalina_64bit/bin/vina --exhaustiveness 35 --receptor start_rigid.pdbqt --ligand FAH.pdbqt --config config.txt --flex start_flex.pdbqt

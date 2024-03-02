@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+/Users/chrisjurich/projects/autodock_vina_1_1_2_mac_catalina_64bit/bin/vina --receptor start.pdbqt --ligand ADP.pdbqt NO3.pdbqt MG.pdbqt DAR.pdbqt \
+        --config config.txt --exhaustiveness 32 --out complex.pdbqt
+
