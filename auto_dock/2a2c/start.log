@@ -1,0 +1,21 @@
+2024-03-02 02:40:01,147 INFO:main.py:243:print_splash_screen:PDB2PQR v3.3.3: biomolecular structure conversion software.
+2024-03-02 02:40:01,147 INFO:main.py:245:print_splash_screen:Please cite:  Jurrus E, et al.  Improvements to the APBS biomolecular solvation software suite.  Protein Sci 27 112-128 (2018).
+2024-03-02 02:40:01,147 INFO:main.py:245:print_splash_screen:Please cite:  Dolinsky TJ, et al.  PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Res 35 W522-W525 (2007).
+2024-03-02 02:40:01,147 INFO:main.py:750:main_driver:Checking and transforming input arguments.
+2024-03-02 02:40:01,148 INFO:main.py:754:main_driver:Loading topology files.
+2024-03-02 02:40:01,200 INFO:main.py:756:main_driver:Loading molecule: start.pdb
+2024-03-02 02:40:01,215 INFO:main.py:761:main_driver:Setting up molecule.
+2024-03-02 02:40:01,234 INFO:main.py:411:setup_molecule:Created biomolecule object with 478 residues and 3693 atoms.
+2024-03-02 02:40:01,234 INFO:main.py:765:main_driver:Setting termini states for biomolecule chains.
+2024-03-02 02:40:01,244 INFO:main.py:604:non_trivial:Loading forcefield.
+2024-03-02 02:40:01,254 INFO:main.py:608:non_trivial:Loading hydrogen topology definitions.
+2024-03-02 02:40:01,259 INFO:main.py:462:is_repairable:This biomolecule is clean.  No repair needed.
+2024-03-02 02:40:01,259 INFO:main.py:623:non_trivial:Updating disulfide bridges.
+2024-03-02 02:40:01,260 INFO:main.py:626:non_trivial:Debumping biomolecule.
+2024-03-02 02:40:01,348 INFO:main.py:643:non_trivial:Adding hydrogens to biomolecule.
+2024-03-02 02:40:01,800 INFO:main.py:646:non_trivial:Debumping biomolecule (again).
+2024-03-02 02:40:02,489 INFO:main.py:648:non_trivial:Optimizing hydrogen bonds
+2024-03-02 02:40:03,501 INFO:main.py:660:non_trivial:Applying force field to biomolecule states.
+2024-03-02 02:40:03,507 INFO:main.py:704:non_trivial:Regenerating headers.
+2024-03-02 02:40:03,508 INFO:main.py:729:non_trivial:Regenerating PDB lines.
+2024-03-02 02:40:03,542 WARNING:main.py:314:print_pqr:Ignoring 391 header lines in output.

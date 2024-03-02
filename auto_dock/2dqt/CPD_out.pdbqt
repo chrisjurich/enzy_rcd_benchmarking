@@ -1,0 +1,372 @@
+MODEL 1
+REMARK VINA RESULT:       0.9      0.000      0.000
+REMARK  Name = CPD.****
+REMARK  22 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C3_3  and  C4_4
+REMARK    3  A    between atoms: C3_3  and  C5_5
+REMARK    4  A    between atoms: C3_3  and  N1_29
+REMARK    5  A    between atoms: C4_4  and  O2_37
+REMARK    6  A    between atoms: C5_5  and  C6_6
+REMARK    7  A    between atoms: C5_5  and  O5_40
+REMARK    8  A    between atoms: C11_11  and  N2_30
+REMARK    9  A    between atoms: C12_12  and  C13_13
+REMARK   10  A    between atoms: C12_12  and  P_49
+REMARK   11  A    between atoms: C18_18  and  N3_31
+REMARK   12  A    between atoms: C19_19  and  C20_20
+REMARK   13  A    between atoms: C22_22  and  C23_23
+REMARK   14  A    between atoms: C22_22  and  N5_33
+REMARK   15  A    between atoms: C24_24  and  C25_25
+REMARK   16  A    between atoms: C24_24  and  N4_32
+REMARK   17  A    between atoms: C25_25  and  C26_26
+REMARK   18  A    between atoms: C26_26  and  N6_34
+REMARK   19  A    between atoms: C27_27  and  N6_34
+REMARK   20  A    between atoms: C28_28  and  N6_34
+REMARK   21  A    between atoms: N4_32  and  P_49
+REMARK   22  A    between atoms: O5_40  and  P_49
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O6  CPD A   1       6.290  -6.676 -17.875  0.00  0.00    -0.700 OA
+ATOM      2  P   CPD A   1       5.837  -5.844 -16.740  0.00  0.00    +1.227 P 
+ENDROOT
+BRANCH   2   4
+ATOM      3  C21 CPD A   1       3.682  -6.166 -15.337  0.00  0.00    +0.690 C 
+ATOM      4  N4  CPD A   1       4.214  -5.996 -16.563  0.00  0.00    -0.616 N 
+ATOM      5  N5  CPD A   1       2.360  -6.390 -15.201  0.00  0.00    -0.730 N 
+ATOM      6  O7  CPD A   1       4.395  -6.117 -14.353  0.00  0.00    -0.570 OA
+ATOM      7  HN5 CPD A   1       1.780  -6.357 -15.977  0.00  0.00    +0.370 HD
+BRANCH   5   8
+ATOM      8  C22 CPD A   1       1.799  -6.682 -13.880  0.00  0.00    +0.300 C 
+ATOM      9  C23 CPD A   1       2.917  -6.675 -12.836  0.00  0.00    +0.000 C 
+ENDBRANCH   5   8
+BRANCH   4  10
+ATOM     10  C24 CPD A   1       3.341  -5.948 -17.740  0.00  0.00    +0.300 C 
+BRANCH  10  11
+ATOM     11  C25 CPD A   1       3.547  -4.620 -18.472  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  C26 CPD A   1       2.324  -3.726 -18.257  0.00  0.00    +0.503 C 
+BRANCH  12  15
+ATOM     13  C27 CPD A   1       2.533  -1.405 -18.610  0.00  0.00    +0.503 C 
+ATOM     14  C28 CPD A   1       1.797  -2.218 -16.523  0.00  0.00    +0.503 C 
+ATOM     15  N6  CPD A   1       2.742  -2.470 -17.620  0.00  0.00    -0.959 N 
+ATOM     16  H6  CPD A   1       3.699  -2.507 -17.298  0.00  0.00    +0.450 HD
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   4  10
+ENDBRANCH   2   4
+BRANCH   2  17
+ATOM     17  C12 CPD A   1       6.668  -6.395 -15.214  0.00  0.00    +0.143 C 
+BRANCH  17  18
+ATOM     18  C13 CPD A   1       7.259  -5.202 -14.506  0.00  0.00    -0.143 A 
+ATOM     19  C14 CPD A   1       8.285  -4.490 -15.096  0.00  0.00    +0.000 A 
+ATOM     20  C15 CPD A   1       6.770  -4.821 -13.270  0.00  0.00    +0.000 A 
+ATOM     21  C16 CPD A   1       8.829  -3.396 -14.450  0.00  0.00    +0.000 A 
+ATOM     22  C17 CPD A   1       7.313  -3.733 -12.616  0.00  0.00    +0.000 A 
+ATOM     23  C18 CPD A   1       8.343  -3.014 -13.206  0.00  0.00    +0.117 A 
+BRANCH  23  25
+ATOM     24  C19 CPD A   1       9.910  -2.074 -11.683  0.00  0.00    +0.569 C 
+ATOM     25  N3  CPD A   1       8.892  -1.907 -12.549  0.00  0.00    -0.547 N 
+ATOM     26  O8  CPD A   1      10.418  -3.167 -11.548  0.00  0.00    -0.570 OA
+ATOM     27  HN3 CPD A   1       8.540  -1.019 -12.718  0.00  0.00    +0.370 HD
+BRANCH  24  28
+ATOM     28  C20 CPD A   1      10.417  -0.904 -10.880  0.00  0.00    +1.081 C 
+ATOM     29  F1  CPD A   1      11.516  -1.305 -10.114  0.00  0.00    -0.340 F 
+ATOM     30  F2  CPD A   1      10.803   0.124 -11.747  0.00  0.00    -0.340 F 
+ATOM     31  F3  CPD A   1       9.402  -0.444 -10.034  0.00  0.00    -0.340 F 
+ENDBRANCH  24  28
+ENDBRANCH  23  25
+ENDBRANCH  17  18
+ENDBRANCH   2  17
+BRANCH   2  32
+ATOM     32  O5  CPD A   1       6.204  -4.304 -17.023  0.00  0.00    -0.551 OA
+BRANCH  32  33
+ATOM     33  C5  CPD A   1       6.722  -4.240 -18.353  0.00  0.00    +0.423 C 
+BRANCH  33  34
+ATOM     34  C6  CPD A   1       6.854  -2.800 -18.774  0.00  0.00    -0.143 A 
+ATOM     35  C7  CPD A   1       7.961  -2.067 -18.389  0.00  0.00    +0.000 A 
+ATOM     36  C8  CPD A   1       5.871  -2.213 -19.548  0.00  0.00    +0.000 A 
+ATOM     37  C9  CPD A   1       8.082  -0.745 -18.775  0.00  0.00    +0.000 A 
+ATOM     38  C10 CPD A   1       5.991  -0.890 -19.929  0.00  0.00    +0.000 A 
+ATOM     39  C11 CPD A   1       7.097  -0.157 -19.545  0.00  0.00    +0.133 A 
+BRANCH  39  40
+ATOM     40  N2  CPD A   1       7.225   1.259 -19.958  0.00  0.00    +0.907 N 
+ATOM     41  O3  CPD A   1       8.328   1.745 -20.133  0.00  0.00    -0.520 OA
+ATOM     42  O4  CPD A   1       6.227   1.939 -20.121  0.00  0.00    -0.520 OA
+ENDBRANCH  39  40
+ENDBRANCH  33  34
+BRANCH  33  43
+ATOM     43  C3  CPD A   1       8.097  -4.912 -18.396  0.00  0.00    +0.300 C 
+BRANCH  43  45
+ATOM     44  C2  CPD A   1      10.331  -4.200 -17.734  0.00  0.00    +0.569 C 
+ATOM     45  N1  CPD A   1       9.142  -3.891 -18.288  0.00  0.00    -0.730 N 
+ATOM     46  O1  CPD A   1      10.536  -5.323 -17.325  0.00  0.00    -0.570 OA
+ATOM     47  HN1 CPD A   1       8.978  -2.993 -18.615  0.00  0.00    +0.370 HD
+BRANCH  44  48
+ATOM     48  C1  CPD A   1      11.407  -3.150 -17.623  0.00  0.00    +0.641 C 
+ATOM     49 CL1  CPD A   1      11.470  -2.532 -15.930  0.00  0.00    -0.290 Cl
+ATOM     50 CL2  CPD A   1      11.036  -1.789 -18.746  0.00  0.00    -0.290 Cl
+ENDBRANCH  44  48
+ENDBRANCH  43  45
+BRANCH  43  51
+ATOM     51  C4  CPD A   1       8.255  -5.667 -19.716  0.00  0.00    +0.280 C 
+BRANCH  51  52
+ATOM     52  O2  CPD A   1       9.549  -6.268 -19.770  0.00  0.00    -0.680 OA
+ATOM     53  HO2 CPD A   1       9.990  -5.913 -20.554  0.00  0.00    +0.400 HD
+ENDBRANCH  51  52
+ENDBRANCH  43  51
+ENDBRANCH  33  43
+ENDBRANCH  32  33
+ENDBRANCH   2  32
+TORSDOF 19
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:       2.5      4.461      7.552
+REMARK  Name = CPD.****
+REMARK  22 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C3_3  and  C4_4
+REMARK    3  A    between atoms: C3_3  and  C5_5
+REMARK    4  A    between atoms: C3_3  and  N1_29
+REMARK    5  A    between atoms: C4_4  and  O2_37
+REMARK    6  A    between atoms: C5_5  and  C6_6
+REMARK    7  A    between atoms: C5_5  and  O5_40
+REMARK    8  A    between atoms: C11_11  and  N2_30
+REMARK    9  A    between atoms: C12_12  and  C13_13
+REMARK   10  A    between atoms: C12_12  and  P_49
+REMARK   11  A    between atoms: C18_18  and  N3_31
+REMARK   12  A    between atoms: C19_19  and  C20_20
+REMARK   13  A    between atoms: C22_22  and  C23_23
+REMARK   14  A    between atoms: C22_22  and  N5_33
+REMARK   15  A    between atoms: C24_24  and  C25_25
+REMARK   16  A    between atoms: C24_24  and  N4_32
+REMARK   17  A    between atoms: C25_25  and  C26_26
+REMARK   18  A    between atoms: C26_26  and  N6_34
+REMARK   19  A    between atoms: C27_27  and  N6_34
+REMARK   20  A    between atoms: C28_28  and  N6_34
+REMARK   21  A    between atoms: N4_32  and  P_49
+REMARK   22  A    between atoms: O5_40  and  P_49
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O6  CPD A   1      10.969  -5.000 -13.340  0.00  0.00    -0.700 OA
+ATOM      2  P   CPD A   1       9.639  -4.938 -13.984  0.00  0.00    +1.227 P 
+ENDROOT
+BRANCH   2   4
+ATOM      3  C21 CPD A   1      10.207  -5.428 -16.464  0.00  0.00    +0.690 C 
+ATOM      4  N4  CPD A   1       9.813  -4.512 -15.558  0.00  0.00    -0.616 N 
+ATOM      5  N5  CPD A   1      10.444  -5.057 -17.737  0.00  0.00    -0.730 N 
+ATOM      6  O7  CPD A   1      10.347  -6.590 -16.133  0.00  0.00    -0.570 OA
+ATOM      7  HN5 CPD A   1      10.264  -4.147 -18.020  0.00  0.00    +0.370 HD
+BRANCH   5   8
+ATOM      8  C22 CPD A   1      10.977  -6.029 -18.697  0.00  0.00    +0.300 C 
+ATOM      9  C23 CPD A   1       9.857  -6.488 -19.633  0.00  0.00    +0.000 C 
+ENDBRANCH   5   8
+BRANCH   4  10
+ATOM     10  C24 CPD A   1       9.540  -3.136 -15.979  0.00  0.00    +0.300 C 
+BRANCH  10  11
+ATOM     11  C25 CPD A   1      10.103  -2.912 -17.384  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  C26 CPD A   1       9.296  -1.819 -18.088  0.00  0.00    +0.503 C 
+BRANCH  12  15
+ATOM     13  C27 CPD A   1       8.253  -1.262 -20.128  0.00  0.00    +0.503 C 
+ATOM     14  C28 CPD A   1      10.605  -1.356 -19.993  0.00  0.00    +0.503 C 
+ATOM     15  N6  CPD A   1       9.371  -2.014 -19.542  0.00  0.00    -0.959 N 
+ATOM     16  H6  CPD A   1       9.346  -2.991 -19.796  0.00  0.00    +0.450 HD
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   4  10
+ENDBRANCH   2   4
+BRANCH   2  17
+ATOM     17  C12 CPD A   1       8.837  -6.571 -13.881  0.00  0.00    +0.143 C 
+BRANCH  17  18
+ATOM     18  C13 CPD A   1       7.640  -6.601 -14.797  0.00  0.00    -0.143 A 
+ATOM     19  C14 CPD A   1       6.365  -6.576 -14.266  0.00  0.00    +0.000 A 
+ATOM     20  C15 CPD A   1       7.821  -6.649 -16.168  0.00  0.00    +0.000 A 
+ATOM     21  C16 CPD A   1       5.267  -6.603 -15.103  0.00  0.00    +0.000 A 
+ATOM     22  C17 CPD A   1       6.727  -6.682 -17.009  0.00  0.00    +0.000 A 
+ATOM     23  C18 CPD A   1       5.444  -6.655 -16.479  0.00  0.00    +0.117 A 
+BRANCH  23  25
+ATOM     24  C19 CPD A   1       4.167  -5.715 -18.251  0.00  0.00    +0.569 C 
+ATOM     25  N3  CPD A   1       4.333  -6.683 -17.329  0.00  0.00    -0.547 N 
+ATOM     26  O8  CPD A   1       5.029  -4.877 -18.415  0.00  0.00    -0.570 OA
+ATOM     27  HN3 CPD A   1       3.684  -7.399 -17.255  0.00  0.00    +0.370 HD
+BRANCH  24  28
+ATOM     28  C20 CPD A   1       2.908  -5.672 -19.080  0.00  0.00    +1.081 C 
+ATOM     29  F1  CPD A   1       2.986  -6.632 -20.094  0.00  0.00    -0.340 F 
+ATOM     30  F2  CPD A   1       1.804  -5.943 -18.265  0.00  0.00    -0.340 F 
+ATOM     31  F3  CPD A   1       2.768  -4.402 -19.651  0.00  0.00    -0.340 F 
+ENDBRANCH  24  28
+ENDBRANCH  23  25
+ENDBRANCH  17  18
+ENDBRANCH   2  17
+BRANCH   2  32
+ATOM     32  O5  CPD A   1       8.729  -3.846 -13.230  0.00  0.00    -0.551 OA
+BRANCH  32  33
+ATOM     33  C5  CPD A   1       8.497  -2.788 -14.162  0.00  0.00    +0.423 C 
+BRANCH  33  34
+ATOM     34  C6  CPD A   1       7.110  -2.916 -14.735  0.00  0.00    -0.143 A 
+ATOM     35  C7  CPD A   1       6.940  -3.302 -16.051  0.00  0.00    +0.000 A 
+ATOM     36  C8  CPD A   1       6.008  -2.651 -13.945  0.00  0.00    +0.000 A 
+ATOM     37  C9  CPD A   1       5.667  -3.419 -16.578  0.00  0.00    +0.000 A 
+ATOM     38  C10 CPD A   1       4.736  -2.764 -14.473  0.00  0.00    +0.000 A 
+ATOM     39  C11 CPD A   1       4.565  -3.150 -15.788  0.00  0.00    +0.133 A 
+BRANCH  39  40
+ATOM     40  N2  CPD A   1       3.202  -3.274 -16.352  0.00  0.00    +0.907 N 
+ATOM     41  O3  CPD A   1       2.328  -3.835 -15.715  0.00  0.00    -0.520 OA
+ATOM     42  O4  CPD A   1       2.954  -2.816 -17.453  0.00  0.00    -0.520 OA
+ENDBRANCH  39  40
+ENDBRANCH  33  34
+BRANCH  33  43
+ATOM     43  C3  CPD A   1       8.631  -1.442 -13.446  0.00  0.00    +0.300 C 
+BRANCH  43  45
+ATOM     44  C2  CPD A   1       6.953  -0.028 -12.386  0.00  0.00    +0.569 C 
+ATOM     45  N1  CPD A   1       7.337  -0.755 -13.454  0.00  0.00    -0.730 N 
+ATOM     46  O1  CPD A   1       7.678   0.056 -11.417  0.00  0.00    -0.570 OA
+ATOM     47  HN1 CPD A   1       6.757  -0.823 -14.228  0.00  0.00    +0.370 HD
+BRANCH  44  48
+ATOM     48  C1  CPD A   1       5.622   0.679 -12.394  0.00  0.00    +0.641 C 
+ATOM     49 CL1  CPD A   1       5.861   2.403 -12.866  0.00  0.00    -0.290 Cl
+ATOM     50 CL2  CPD A   1       4.891   0.603 -10.748  0.00  0.00    -0.290 Cl
+ENDBRANCH  44  48
+ENDBRANCH  43  45
+BRANCH  43  51
+ATOM     51  C4  CPD A   1       9.670  -0.582 -14.166  0.00  0.00    +0.280 C 
+BRANCH  51  52
+ATOM     52  O2  CPD A   1      10.833  -0.453 -13.346  0.00  0.00    -0.680 OA
+ATOM     53  HO2 CPD A   1      10.524  -0.239 -12.455  0.00  0.00    +0.400 HD
+ENDBRANCH  51  52
+ENDBRANCH  43  51
+ENDBRANCH  33  43
+ENDBRANCH  32  33
+ENDBRANCH   2  32
+TORSDOF 19
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:       3.2      3.035      6.124
+REMARK  Name = CPD.****
+REMARK  22 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C3_3  and  C4_4
+REMARK    3  A    between atoms: C3_3  and  C5_5
+REMARK    4  A    between atoms: C3_3  and  N1_29
+REMARK    5  A    between atoms: C4_4  and  O2_37
+REMARK    6  A    between atoms: C5_5  and  C6_6
+REMARK    7  A    between atoms: C5_5  and  O5_40
+REMARK    8  A    between atoms: C11_11  and  N2_30
+REMARK    9  A    between atoms: C12_12  and  C13_13
+REMARK   10  A    between atoms: C12_12  and  P_49
+REMARK   11  A    between atoms: C18_18  and  N3_31
+REMARK   12  A    between atoms: C19_19  and  C20_20
+REMARK   13  A    between atoms: C22_22  and  C23_23
+REMARK   14  A    between atoms: C22_22  and  N5_33
+REMARK   15  A    between atoms: C24_24  and  C25_25
+REMARK   16  A    between atoms: C24_24  and  N4_32
+REMARK   17  A    between atoms: C25_25  and  C26_26
+REMARK   18  A    between atoms: C26_26  and  N6_34
+REMARK   19  A    between atoms: C27_27  and  N6_34
+REMARK   20  A    between atoms: C28_28  and  N6_34
+REMARK   21  A    between atoms: N4_32  and  P_49
+REMARK   22  A    between atoms: O5_40  and  P_49
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O6  CPD A   1       4.058  -4.030 -20.130  0.00  0.00    -0.700 OA
+ATOM      2  P   CPD A   1       5.167  -3.497 -19.309  0.00  0.00    +1.227 P 
+ENDROOT
+BRANCH   2   4
+ATOM      3  C21 CPD A   1       6.787  -1.544 -19.834  0.00  0.00    +0.690 C 
+ATOM      4  N4  CPD A   1       5.508  -1.963 -19.779  0.00  0.00    -0.616 N 
+ATOM      5  N5  CPD A   1       7.062  -0.257 -20.124  0.00  0.00    -0.730 N 
+ATOM      6  O7  CPD A   1       7.693  -2.327 -19.623  0.00  0.00    -0.570 OA
+ATOM      7  HN5 CPD A   1       6.345   0.351 -20.363  0.00  0.00    +0.370 HD
+BRANCH   5   8
+ATOM      8  C22 CPD A   1       8.444   0.226 -20.077  0.00  0.00    +0.300 C 
+ATOM      9  C23 CPD A   1       8.454   1.755 -20.135  0.00  0.00    +0.000 C 
+ENDBRANCH   5   8
+BRANCH   4  10
+ATOM     10  C24 CPD A   1       4.421  -1.049 -20.137  0.00  0.00    +0.300 C 
+BRANCH  10  11
+ATOM     11  C25 CPD A   1       3.239  -1.266 -19.190  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  C26 CPD A   1       2.210  -0.152 -19.394  0.00  0.00    +0.503 C 
+BRANCH  12  15
+ATOM     13  C27 CPD A   1       2.510   2.133 -19.893  0.00  0.00    +0.503 C 
+ATOM     14  C28 CPD A   1       1.907   1.471 -17.711  0.00  0.00    +0.503 C 
+ATOM     15  N6  CPD A   1       2.744   1.110 -18.865  0.00  0.00    -0.959 N 
+ATOM     16  H6  CPD A   1       3.720   1.036 -18.618  0.00  0.00    +0.450 HD
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   4  10
+ENDBRANCH   2   4
+BRANCH   2  17
+ATOM     17  C12 CPD A   1       4.679  -3.501 -17.554  0.00  0.00    +0.143 C 
+BRANCH  17  18
+ATOM     18  C13 CPD A   1       5.858  -3.100 -16.704  0.00  0.00    -0.143 A 
+ATOM     19  C14 CPD A   1       5.706  -2.956 -15.338  0.00  0.00    +0.000 A 
+ATOM     20  C15 CPD A   1       7.091  -2.882 -17.292  0.00  0.00    +0.000 A 
+ATOM     21  C16 CPD A   1       6.784  -2.589 -14.557  0.00  0.00    +0.000 A 
+ATOM     22  C17 CPD A   1       8.171  -2.509 -16.517  0.00  0.00    +0.000 A 
+ATOM     23  C18 CPD A   1       8.022  -2.365 -15.145  0.00  0.00    +0.117 A 
+BRANCH  23  25
+ATOM     24  C19 CPD A   1       9.116  -2.260 -13.035  0.00  0.00    +0.569 C 
+ATOM     25  N3  CPD A   1       9.117  -1.993 -14.356  0.00  0.00    -0.547 N 
+ATOM     26  O8  CPD A   1       8.217  -2.913 -12.548  0.00  0.00    -0.570 OA
+ATOM     27  HN3 CPD A   1       9.875  -1.543 -14.760  0.00  0.00    +0.370 HD
+BRANCH  24  28
+ATOM     28  C20 CPD A   1      10.234  -1.749 -12.163  0.00  0.00    +1.081 C 
+ATOM     29  F1  CPD A   1       9.701  -0.959 -11.139  0.00  0.00    -0.340 F 
+ATOM     30  F2  CPD A   1      10.924  -2.831 -11.606  0.00  0.00    -0.340 F 
+ATOM     31  F3  CPD A   1      11.113  -0.981 -12.934  0.00  0.00    -0.340 F 
+ENDBRANCH  24  28
+ENDBRANCH  23  25
+ENDBRANCH  17  18
+ENDBRANCH   2  17
+BRANCH   2  32
+ATOM     32  O5  CPD A   1       6.471  -4.420 -19.505  0.00  0.00    -0.551 OA
+BRANCH  32  33
+ATOM     33  C5  CPD A   1       6.156  -5.702 -18.959  0.00  0.00    +0.423 C 
+BRANCH  33  34
+ATOM     34  C6  CPD A   1       6.882  -5.885 -17.652  0.00  0.00    -0.143 A 
+ATOM     35  C7  CPD A   1       6.170  -6.171 -16.502  0.00  0.00    +0.000 A 
+ATOM     36  C8  CPD A   1       8.257  -5.771 -17.603  0.00  0.00    +0.000 A 
+ATOM     37  C9  CPD A   1       6.836  -6.339 -15.302  0.00  0.00    +0.000 A 
+ATOM     38  C10 CPD A   1       8.922  -5.934 -16.402  0.00  0.00    +0.000 A 
+ATOM     39  C11 CPD A   1       8.212  -6.220 -15.252  0.00  0.00    +0.133 A 
+BRANCH  39  40
+ATOM     40  N2  CPD A   1       8.926  -6.398 -13.968  0.00  0.00    +0.907 N 
+ATOM     41  O3  CPD A   1      10.142  -6.462 -13.950  0.00  0.00    -0.520 OA
+ATOM     42  O4  CPD A   1       8.296  -6.482 -12.928  0.00  0.00    -0.520 OA
+ENDBRANCH  39  40
+ENDBRANCH  33  34
+BRANCH  33  43
+ATOM     43  C3  CPD A   1       4.647  -5.798 -18.722  0.00  0.00    +0.300 C 
+BRANCH  43  45
+ATOM     44  C2  CPD A   1       3.442  -5.993 -16.614  0.00  0.00    +0.569 C 
+ATOM     45  N1  CPD A   1       4.396  -6.463 -17.442  0.00  0.00    -0.730 N 
+ATOM     46  O1  CPD A   1       2.792  -5.018 -16.928  0.00  0.00    -0.570 OA
+ATOM     47  HN1 CPD A   1       4.916  -7.242 -17.190  0.00  0.00    +0.370 HD
+BRANCH  44  48
+ATOM     48  C1  CPD A   1       3.183  -6.677 -15.296  0.00  0.00    +0.641 C 
+ATOM     49 CL1  CPD A   1       1.797  -5.876 -14.465  0.00  0.00    -0.290 Cl
+ATOM     50 CL2  CPD A   1       4.653  -6.562 -14.259  0.00  0.00    -0.290 Cl
+ENDBRANCH  44  48
+ENDBRANCH  43  45
+BRANCH  43  51
+ATOM     51  C4  CPD A   1       4.003  -6.603 -19.851  0.00  0.00    +0.280 C 
+BRANCH  51  52
+ATOM     52  O2  CPD A   1       2.588  -6.411 -19.828  0.00  0.00    -0.680 OA
+ATOM     53  HO2 CPD A   1       2.398  -5.822 -19.084  0.00  0.00    +0.400 HD
+ENDBRANCH  51  52
+ENDBRANCH  43  51
+ENDBRANCH  33  43
+ENDBRANCH  32  33
+ENDBRANCH   2  32
+TORSDOF 19
+ENDMDL

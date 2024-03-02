@@ -1,0 +1,121 @@
+REMARK  Name = CPD.****
+REMARK  22 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C3_3  and  C4_4
+REMARK    3  A    between atoms: C3_3  and  C5_5
+REMARK    4  A    between atoms: C3_3  and  N1_29
+REMARK    5  A    between atoms: C4_4  and  O2_37
+REMARK    6  A    between atoms: C5_5  and  C6_6
+REMARK    7  A    between atoms: C5_5  and  O5_40
+REMARK    8  A    between atoms: C11_11  and  N2_30
+REMARK    9  A    between atoms: C12_12  and  C13_13
+REMARK   10  A    between atoms: C12_12  and  P_49
+REMARK   11  A    between atoms: C18_18  and  N3_31
+REMARK   12  A    between atoms: C19_19  and  C20_20
+REMARK   13  A    between atoms: C22_22  and  C23_23
+REMARK   14  A    between atoms: C22_22  and  N5_33
+REMARK   15  A    between atoms: C24_24  and  C25_25
+REMARK   16  A    between atoms: C24_24  and  N4_32
+REMARK   17  A    between atoms: C25_25  and  C26_26
+REMARK   18  A    between atoms: C26_26  and  N6_34
+REMARK   19  A    between atoms: C27_27  and  N6_34
+REMARK   20  A    between atoms: C28_28  and  N6_34
+REMARK   21  A    between atoms: N4_32  and  P_49
+REMARK   22  A    between atoms: O5_40  and  P_49
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O6  CPD A   1      -0.631   0.911  -0.385  0.00  0.00    -0.700 OA
+ATOM      2  P   CPD A   1      -0.757  -0.557  -0.257  0.00  0.00    +1.227 P 
+ENDROOT
+BRANCH   2   4
+ATOM      3  C21 CPD A   1      -2.492  -2.344  -0.973  0.00  0.00    +0.690 C 
+ATOM      4  N4  CPD A   1      -2.077  -1.067  -1.086  0.00  0.00    -0.616 N 
+ATOM      5  N5  CPD A   1      -3.515  -2.789  -1.728  0.00  0.00    -0.730 N 
+ATOM      6  O7  CPD A   1      -1.943  -3.094  -0.189  0.00  0.00    -0.570 OA
+ATOM      7  HN5 CPD A   1      -4.000  -2.174  -2.300  0.00  0.00    +0.370 HD
+BRANCH   5   8
+ATOM      8  C22 CPD A   1      -3.896  -4.203  -1.686  0.00  0.00    +0.300 C 
+ATOM      9  C23 CPD A   1      -5.077  -4.442  -2.629  0.00  0.00    +0.000 C 
+ENDBRANCH   5   8
+BRANCH   4  10
+ATOM     10  C24 CPD A   1      -2.805  -0.134  -1.950  0.00  0.00    +0.300 C 
+BRANCH  10  11
+ATOM     11  C25 CPD A   1      -3.900   0.562  -1.139  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  C26 CPD A   1      -4.660   1.537  -2.041  0.00  0.00    +0.503 C 
+BRANCH  12  15
+ATOM     13  C27 CPD A   1      -6.399   3.122  -2.182  0.00  0.00    +0.503 C 
+ATOM     14  C28 CPD A   1      -6.685   1.170  -0.891  0.00  0.00    +0.503 C 
+ATOM     15  N6  CPD A   1      -5.711   2.206  -1.263  0.00  0.00    -0.959 N 
+ATOM     16  H6  CPD A   1      -5.339   2.686  -0.456  0.00  0.00    +0.450 HD
+ENDBRANCH  12  15
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   4  10
+ENDBRANCH   2   4
+BRANCH   2  17
+ATOM     17  C12 CPD A   1       0.733  -1.356  -0.937  0.00  0.00    +0.143 C 
+BRANCH  17  18
+ATOM     18  C13 CPD A   1       0.964  -0.872  -2.346  0.00  0.00    -0.143 A 
+ATOM     19  C14 CPD A   1       1.811   0.195  -2.578  0.00  0.00    +0.000 A 
+ATOM     20  C15 CPD A   1       0.333  -1.501  -3.404  0.00  0.00    +0.000 A 
+ATOM     21  C16 CPD A   1       2.025   0.640  -3.868  0.00  0.00    +0.000 A 
+ATOM     22  C17 CPD A   1       0.538  -1.057  -4.695  0.00  0.00    +0.000 A 
+ATOM     23  C18 CPD A   1       1.389   0.014  -4.932  0.00  0.00    +0.117 A 
+BRANCH  23  25
+ATOM     24  C19 CPD A   1       2.803   0.968  -6.590  0.00  0.00    +0.569 C 
+ATOM     25  N3  CPD A   1       1.604   0.463  -6.240  0.00  0.00    -0.547 N 
+ATOM     26  O8  CPD A   1       3.726   0.940  -5.804  0.00  0.00    -0.570 OA
+ATOM     27  HN3 CPD A   1       0.890   0.410  -6.894  0.00  0.00    +0.370 HD
+BRANCH  24  28
+ATOM     28  C20 CPD A   1       2.997   1.568  -7.959  0.00  0.00    +1.081 C 
+ATOM     29  F1  CPD A   1       4.314   2.022  -8.086  0.00  0.00    -0.340 F 
+ATOM     30  F2  CPD A   1       2.742   0.598  -8.934  0.00  0.00    -0.340 F 
+ATOM     31  F3  CPD A   1       2.116   2.642  -8.127  0.00  0.00    -0.340 F 
+ENDBRANCH  24  28
+ENDBRANCH  23  25
+ENDBRANCH  17  18
+ENDBRANCH   2  17
+BRANCH   2  32
+ATOM     32  O5  CPD A   1      -0.914  -0.949   1.295  0.00  0.00    -0.551 OA
+BRANCH  32  33
+ATOM     33  C5  CPD A   1       0.260  -0.480   1.961  0.00  0.00    +0.423 C 
+BRANCH  33  34
+ATOM     34  C6  CPD A   1      -0.127   0.511   3.027  0.00  0.00    -0.143 A 
+ATOM     35  C7  CPD A   1      -1.351   0.401   3.660  0.00  0.00    +0.000 A 
+ATOM     36  C8  CPD A   1       0.742   1.527   3.375  0.00  0.00    +0.000 A 
+ATOM     37  C9  CPD A   1      -1.707   1.311   4.638  0.00  0.00    +0.000 A 
+ATOM     38  C10 CPD A   1       0.384   2.439   4.350  0.00  0.00    +0.000 A 
+ATOM     39  C11 CPD A   1      -0.839   2.330   4.983  0.00  0.00    +0.133 A 
+BRANCH  39  40
+ATOM     40  N2  CPD A   1      -1.220   3.305   6.029  0.00  0.00    +0.907 N 
+ATOM     41  O3  CPD A   1      -0.455   4.203   6.333  0.00  0.00    -0.520 OA
+ATOM     42  O4  CPD A   1      -2.299   3.210   6.587  0.00  0.00    -0.520 OA
+ENDBRANCH  39  40
+ENDBRANCH  33  34
+BRANCH  33  43
+ATOM     43  C3  CPD A   1       0.987  -1.663   2.604  0.00  0.00    +0.300 C 
+BRANCH  43  45
+ATOM     44  C2  CPD A   1       2.129  -0.808   4.579  0.00  0.00    +0.569 C 
+ATOM     45  N1  CPD A   1       2.191  -1.183   3.286  0.00  0.00    -0.730 N 
+ATOM     46  O1  CPD A   1       1.076  -0.867   5.178  0.00  0.00    -0.570 OA
+ATOM     47  HN1 CPD A   1       3.033  -1.135   2.807  0.00  0.00    +0.370 HD
+BRANCH  44  48
+ATOM     48  C1  CPD A   1       3.368  -0.314   5.281  0.00  0.00    +0.641 C 
+ATOM     49 CL1  CPD A   1       4.625  -1.607   5.262  0.00  0.00    -0.290 Cl
+ATOM     50 CL2  CPD A   1       2.965   0.107   6.987  0.00  0.00    -0.290 Cl
+ENDBRANCH  44  48
+ENDBRANCH  43  45
+BRANCH  43  51
+ATOM     51  C4  CPD A   1       1.380  -2.670   1.522  0.00  0.00    +0.280 C 
+BRANCH  51  52
+ATOM     52  O2  CPD A   1       0.206  -3.138   0.857  0.00  0.00    -0.680 OA
+ATOM     53  HO2 CPD A   1      -0.349  -3.556   1.530  0.00  0.00    +0.400 HD
+ENDBRANCH  51  52
+ENDBRANCH  43  51
+ENDBRANCH  33  43
+ENDBRANCH  32  33
+ENDBRANCH   2  32
+TORSDOF 19
