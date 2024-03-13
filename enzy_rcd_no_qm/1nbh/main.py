@@ -3,6 +3,12 @@ sys.path.insert(0, "/panfs/accrepfs.vampire/home/jurichc/EnzyHTP/")
 
 import enzy_htp as eh
 
+eh.config['mole2.MONO'] = "/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono"
+eh.config['mole2.PROBE'] = 5.0
+eh.config['mole2.INNER'] = 1.05
+eh.config['mole2.IGNORE_HETATM'] = True
+
+
 prefix='../../starting_points/1nbh/'
 
 sp = eh.PDBParser()
