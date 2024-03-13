@@ -1,0 +1,7 @@
+<StructureConstraints>
+
+    <AngleConstraint atom1="A.110.CG"  atom2="A.110.ND2" atom3="Z.1.CH3" target_value="102.0" rosetta_tolerance="20" rosetta_penalty="50" />
+    <AngleConstraint atom1="A.110.ND2" atom2="Z.1.CH3"   atom3="Z.1.F"   target_value="98.6"  rosetta_tolerance="20"  rosetta_penalty="50" />
+    <DistanceConstraint atom1="A.110.ND2" atom2="Z.1.CH3" target_value="3.3" rosetta_tolerance="0.25" rosetta_penalty="500"/>
+
+</StructureConstraints>

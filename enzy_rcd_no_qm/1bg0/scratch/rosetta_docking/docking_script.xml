@@ -1,0 +1,70 @@
+<ROSETTASCRIPTS>
+	<SCORINGGRIDS ligand_chain="%%ligand_chain%%" width="%%grid_width%%" name="grid">
+		<ClassicGrid grid_name="classic" weight="1.0"/>
+	</SCORINGGRIDS>
+	<RESIDUE_SELECTORS>
+		<Index name="ligand" resnums="%%ligand_idx%%"/>
+		<CloseContact name="ligand_active_site" residue_selector="ligand" contact_threshold="%%contact_threshold%%"/>
+		<Not name="not_ligand_active_site" selector="ligand_active_site"/>
+	</RESIDUE_SELECTORS>
+	<SCOREFXNS>
+		<ScoreFunction name="ligand_soft_rep" weights="ligand_soft_rep">
+			<Reweight scoretype="coordinate_constraint" weight="1.0"/>
+			<Reweight scoretype="atom_pair_constraint" weight="1.0"/>
+			<Reweight scoretype="angle_constraint" weight="1.0"/>
+			<Reweight scoretype="dihedral_constraint" weight="1.0"/>
+			<Reweight scoretype="chainbreak" weight="1.0"/>
+		</ScoreFunction>
+		<ScoreFunction name="hard_rep" weights="ligand"/>
+	</SCOREFXNS>
+	<LIGAND_AREAS>
+	</LIGAND_AREAS>
+	<INTERFACE_BUILDERS>
+	</INTERFACE_BUILDERS>
+	<MOVEMAP_BUILDERS>
+	</MOVEMAP_BUILDERS>
+	<TASKOPERATIONS>
+	</TASKOPERATIONS>
+	<SIMPLE_METRICS>
+	</SIMPLE_METRICS>
+    <CONSTRAINT_GENERATORS>
+        <FileConstraintGenerator name="add_cst" filename="%%cst_file%%" />
+    </CONSTRAINT_GENERATORS>
+	<MOVERS>
+
+		<Transform name="dock" chain="%%ligand_chain%%" box_size="%%box_size%%" move_distance="%%move_distance%%" angle="%%transform_angle%%" cycles="%%transform_cycles%%" repeats="%%transform_repeats%%" temperature="%%transform_temperature%%" grid_set="grid" use_constraints="true" cst_fa_file="%%cst_file%%"/>
+        
+        <ConstraintSetMover name="add_csts" add_constraints="true" cst_file="%%cst_file%%" />
+
+        <ClearConstraintsMover name="rm_csts" />
+
+        <FastRelax name="frelax" scorefxn="hard_rep" cst_file="%%cst_file%%" repeats="%%fr_repeats%%">
+			<MoveMap name="full_enzyme" bb="true" chi="true" jump="true">
+				<ResidueSelector selector="ligand_active_site"     bb="true" chi="true" bondangle="true" />
+				<ResidueSelector selector="not_ligand_active_site" bb="false" chi="true" bondangle="false"/>
+			</MoveMap>
+		</FastRelax>
+	</MOVERS>
+
+	<FILTERS>
+		<SimpleMetricFilter name="clash_filter" comparison_type="lt_or_eq" cutoff="%%clash_cutoff%%" composite_action="any">
+			<PerResidueClashMetric name="clash" residue_selector="ligand" residue_selector2="ligand_active_site"/>
+		</SimpleMetricFilter>
+        <SimpleMetricFilter name="sasa_filter" comparison_type="lt_or_eq" cutoff="%%sasa_cutoff%%" composite_action="any">
+            <SasaMetric name="sasa" residue_selector="ligand" />
+		</SimpleMetricFilter>
+
+        <ConstraintScore name="cst_filter" constraint_generators="add_cst" threshold="%%cst_cutoff%%" />
+	</FILTERS>
+
+	<PROTOCOLS>
+		<Add mover_name="dock"      />
+		<Add filter="clash_filter"  />
+        <Add filter="sasa_filter"   />
+		<Add mover_name="frelax"    />
+        <Add filter="cst_filter"    />
+        <Add mover_name="rm_csts"   />
+	</PROTOCOLS>
+	<OUTPUT>
+	</OUTPUT>
+</ROSETTASCRIPTS>

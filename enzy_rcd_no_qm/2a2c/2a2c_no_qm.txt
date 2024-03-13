@@ -1,0 +1,120 @@
+
+Inactive Modules:
+  1) PMIx/.3.1.5     4) hwloc/.2.2.0          7) libpciaccess/.0.16
+  2) UCX/.1.9.0      5) libevent/.2.1.12      8) libxml2/.2.9.10
+  3) XZ/.5.2.5       6) libfabric/.1.11.0     9) numactl/.2.0.13
+
+Activating Modules:
+  1) Mono/4.6.2.7
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) binutils/.2.35     2) zlib/.1.2.11
+
+The following have been reloaded with a version change:
+  1) GCCcore/.10.2.0 => GCCcore/.5.4.0
+
+
+Inactive Modules:
+  1) Mono/4.6.2.7
+
+Activating Modules:
+  1) PMIx/.3.1.5     4) hwloc/.2.2.0          7) libpciaccess/.0.16
+  2) UCX/.1.9.0      5) libevent/.2.1.12      8) libxml2/.2.9.10
+  3) XZ/.5.2.5       6) libfabric/.1.11.0     9) numactl/.2.0.13
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) binutils/.2.35     2) zlib/.1.2.11
+
+The following have been reloaded with a version change:
+  1) GCCcore/.5.4.0 => GCCcore/.10.2.0
+
+
+The following have been reloaded with a version change:
+  1) Gaussian/.16.B.01-AVX => Gaussian/.16.B.01-AVX2
+
+[1m[23:54 EnzyHTP load_config] INFO Found config file: /home/jurichc/.eh_config...[0m
+[1m[23:54 EnzyHTP load_config] INFO Updated 8 config settings![0m
+[1m[23:54 EnzyHTP check_environment] INFO Beginning environment check...[0m
+[1m[23:54 EnzyHTP check_environment] INFO Environment check complete![0m
+[1m[33m[23:54 EnzyHTP check_environment] WARNING The following executables are missing:[0m
+[1m[33m[23:54 EnzyHTP check_environment] WARNING       mono[0m
+[1m[33m[23:54 EnzyHTP check_environment] WARNING Some elements are missing in environment. Not all functionality will be possible.[0m
+[1m[23:54 EnzyHTP _place_alphafill] INFO Beginnning placement of ligand Ligand(1, ADP, atom:39, Chain(Y, residue: 1)) into the structure...[0m
+[1m[23:54 EnzyHTP _place_alphafill] INFO Calling out to AlphaFill to fill structure...[0m
+[1m[23:54 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[23:54 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.pdb' exists and will be overwritten[0m
+[1m[23:54 EnzyHTP fill_structure] INFO The supplied file /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.pdb is .pdb format. Converting to mmCIF...[0m
+[1m[23:54 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/home/jurichc/projects/maxit-v11.100-prod-src/bin/maxit -input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.pdb -output /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.cif -o 1`...[0m
+[1m[23:54 EnzyHTP run_command] INFO finished `/dors/meilerlab/home/jurichc/projects/maxit-v11.100-prod-src/bin/maxit -input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.pdb -output /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.cif -o 1` after 1 tries @2024-02-28 23:54:29[0m
+[1m[23:54 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/home/jurichc/projects/alphafill/alphafill --config /dors/meilerlab/home/jurichc/projects/alphafill/alphafill.conf process /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.cif /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp_filled.cif`...[0m
+[1m[23:55 EnzyHTP run_command] INFO finished `/dors/meilerlab/home/jurichc/projects/alphafill/alphafill --config /dors/meilerlab/home/jurichc/projects/alphafill/alphafill.conf process /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.cif /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp_filled.cif` after 1 tries @2024-02-28 23:55:42[0m
+[1m[23:55 EnzyHTP _place_alphafill] INFO Filled structure using AlphaFill![0m
+[1m[23:55 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif`...[0m
+[1m[23:55 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif` after 1 tries @2024-02-28 23:55:42[0m
+[1m[23:55 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//ATP.cif`...[0m
+[1m[23:55 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//ATP.cif` after 1 tries @2024-02-28 23:55:43[0m
+[1m[23:55 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//HFK.cif`...[0m
+[1m[23:55 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//HFK.cif` after 1 tries @2024-02-28 23:55:45[0m
+[1m[23:55 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//JHJ.cif`...[0m
+[1m[23:55 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//JHJ.cif` after 1 tries @2024-02-28 23:55:45[0m
+[1m[23:55 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//HFK.cif`...[0m
+[1m[23:55 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//HFK.cif` after 1 tries @2024-02-28 23:55:45[0m
+[1m[23:55 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//HR5.cif`...[0m
+[1m[23:55 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//HR5.cif` after 1 tries @2024-02-28 23:55:46[0m
+[1m[23:55 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//HR5.cif`...[0m
+[1m[23:55 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//HR5.cif` after 1 tries @2024-02-28 23:55:46[0m
+[1m[23:55 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//HR5.cif`...[0m
+[1m[23:55 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//HR5.cif` after 1 tries @2024-02-28 23:55:46[0m
+[1m[23:55 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//MEV.cif`...[0m
+[1m[23:55 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//MEV.cif` after 1 tries @2024-02-28 23:55:46[0m
+[1m[23:55 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif`...[0m
+[1m[23:55 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif` after 1 tries @2024-02-28 23:55:47[0m
+[1m[23:55 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif`...[0m
+[1m[23:55 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif` after 1 tries @2024-02-28 23:55:47[0m
+[1m[23:55 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[23:55 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__temp.pdb' exists and will be overwritten[0m
+[1m[33m[23:55 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__temp_ligand.mol2' exists and will be overwritten[0m
+[23:55:48] __afill_temp_filled: Warning - no explicit hydrogens in mol2 file but needed for formal charge estimation.
+[1m[23:55 EnzyHTP _place_alphafill] INFO Beginnning placement of ligand MetalUnit(1, MG, atom:1, Chain(B, residue: 1)) into the structure...[0m
+[1m[23:55 EnzyHTP _place_alphafill] INFO Calling out to AlphaFill to fill structure...[0m
+[1m[23:55 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[23:55 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.pdb' exists and will be overwritten[0m
+[1m[23:55 EnzyHTP fill_structure] INFO The supplied file /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.pdb is .pdb format. Converting to mmCIF...[0m
+[1m[23:55 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/home/jurichc/projects/maxit-v11.100-prod-src/bin/maxit -input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.pdb -output /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.cif -o 1`...[0m
+[1m[23:55 EnzyHTP run_command] INFO finished `/dors/meilerlab/home/jurichc/projects/maxit-v11.100-prod-src/bin/maxit -input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.pdb -output /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.cif -o 1` after 1 tries @2024-02-28 23:55:53[0m
+[1m[23:55 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/home/jurichc/projects/alphafill/alphafill --config /dors/meilerlab/home/jurichc/projects/alphafill/alphafill.conf process /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.cif /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp_filled.cif`...[0m
+[1m[23:56 EnzyHTP run_command] INFO finished `/dors/meilerlab/home/jurichc/projects/alphafill/alphafill --config /dors/meilerlab/home/jurichc/projects/alphafill/alphafill.conf process /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp.cif /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__afill_temp_filled.cif` after 1 tries @2024-02-28 23:56:58[0m
+[1m[23:56 EnzyHTP _place_alphafill] INFO Filled structure using AlphaFill![0m
+[1m[23:56 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif`...[0m
+[1m[23:56 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif` after 1 tries @2024-02-28 23:56:59[0m
+[1m[23:56 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//ATP.cif`...[0m
+[1m[23:56 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//ATP.cif` after 1 tries @2024-02-28 23:56:59[0m
+[1m[23:56 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//HFK.cif`...[0m
+[1m[23:56 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//HFK.cif` after 1 tries @2024-02-28 23:56:59[0m
+[1m[23:56 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//JHJ.cif`...[0m
+[1m[23:57 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//JHJ.cif` after 1 tries @2024-02-28 23:57:00[0m
+[1m[23:57 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//HFK.cif`...[0m
+[1m[23:57 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//HFK.cif` after 1 tries @2024-02-28 23:57:00[0m
+[1m[23:57 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//HR5.cif`...[0m
+[1m[23:57 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//HR5.cif` after 1 tries @2024-02-28 23:57:00[0m
+[1m[23:57 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//HR5.cif`...[0m
+[1m[23:57 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//HR5.cif` after 1 tries @2024-02-28 23:57:00[0m
+[1m[23:57 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//HR5.cif`...[0m
+[1m[23:57 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//HR5.cif` after 1 tries @2024-02-28 23:57:00[0m
+[1m[23:57 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//MEV.cif`...[0m
+[1m[23:57 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//MEV.cif` after 1 tries @2024-02-28 23:57:01[0m
+[1m[23:57 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif`...[0m
+[1m[23:57 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif` after 1 tries @2024-02-28 23:57:01[0m
+[1m[23:57 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif`...[0m
+[1m[23:57 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif` after 1 tries @2024-02-28 23:57:01[0m
+[1m[23:57 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[23:57 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__temp.pdb' exists and will be overwritten[0m
+[1m[33m[23:57 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__temp_ligand.mol2' exists and will be overwritten[0m
+[1m[23:57 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[23:57 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__temp.pdb' exists and will be overwritten[0m
+[1m[33m[23:57 EnzyHTP run_command] WARNING (dev-only) Using unregistered executable: '/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono'[0m
+[1m[33m[23:57 EnzyHTP run_command] WARNING     Please add it to corresponding config.required_executables if this is a long-term use[0m
+[1m[23:57 EnzyHTP run_command] INFO Running command: `/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono $HOME/Mole2/mole2.exe /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__mole2_input.xml`...[0m
+[1m[23:57 EnzyHTP run_command] INFO finished `/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono $HOME/Mole2/mole2.exe /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/2a2c/scratch/__mole2_input.xml` after 1 tries @2024-02-28 23:57:05[0m
+[1m[23:57 EnzyHTP identify_cavities] INFO Found 11 cavities using probe radius of 5.000 A and inner radius of 1.050 A[0m
+[1m[00:01 EnzyHTP renumber_atoms] INFO renumbering atoms[0m

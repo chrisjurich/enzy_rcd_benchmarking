@@ -1,0 +1,47 @@
+-keep_input_protonation_state
+-auto_setup_metals
+-run:constant_seed
+-run:jran 1996
+-in:file
+    -s 'start.pdb'
+    -extra_res_fa '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/FAH.params'
+    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P1.params'
+    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P2.params'
+    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//LYS_D.params'
+    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P1.params'
+    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//TYR_D.params'
+    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//HIS_P.params'
+    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P2.params'
+-run:preserve_header
+-packing
+    -ex1
+    -ex2aro
+    -ex2 
+    -no_optH false
+    -flip_HNQ true
+    -ignore_ligand_chi true
+-parser
+   -protocol /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_docking/docking_script.xml
+   -script_vars ligand_chain=Z \
+                sasa_cutoff=39 \
+                clash_cutoff=3 \
+                contact_threshold=3.0 \
+                ligand_idx=1Z \
+                cst_cutoff=1500 \
+                cst_file=/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_docking//constraints.cst \
+                box_size=50.0 \
+                move_distance=40.0 \
+                transform_angle=360 \
+                transform_cycles=1000 \
+                transform_repeats=3 \
+                transform_temperature=5 \
+                fr_repeats=1 \
+                grid_width=50.0
+-out
+   -file:scorefile 'docking_scores.sc'
+   -level 200
+   -nstruct 20
+   -overwrite
+   -path
+       -all '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_docking/'
+-qsar:grid_dir /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_docking/qsar_grids

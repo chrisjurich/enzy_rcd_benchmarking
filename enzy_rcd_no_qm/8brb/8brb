@@ -1,0 +1,280 @@
+
+Inactive Modules:
+  1) PMIx/.3.1.5     4) hwloc/.2.2.0          7) libpciaccess/.0.16
+  2) UCX/.1.9.0      5) libevent/.2.1.12      8) libxml2/.2.9.10
+  3) XZ/.5.2.5       6) libfabric/.1.11.0     9) numactl/.2.0.13
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) binutils/.2.35     2) zlib/.1.2.11
+
+The following have been reloaded with a version change:
+  1) GCCcore/.10.2.0 => GCCcore/.5.4.0
+
+
+Inactive Modules:
+  1) Mono/4.6.2.7
+
+Activating Modules:
+  1) PMIx/.3.1.5     4) hwloc/.2.2.0          7) libpciaccess/.0.16
+  2) UCX/.1.9.0      5) libevent/.2.1.12      8) libxml2/.2.9.10
+  3) XZ/.5.2.5       6) libfabric/.1.11.0     9) numactl/.2.0.13
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) binutils/.2.35     2) zlib/.1.2.11
+
+The following have been reloaded with a version change:
+  1) GCCcore/.5.4.0 => GCCcore/.10.2.0
+
+[1m[13:35 EnzyHTP load_config] INFO Found config file: /home/jurichc/.eh_config...[0m
+[1m[13:35 EnzyHTP load_config] INFO Updated 8 config settings![0m
+[1m[13:35 EnzyHTP check_environment] INFO Beginning environment check...[0m
+[1m[13:35 EnzyHTP check_environment] INFO Environment check complete![0m
+[1m[33m[13:35 EnzyHTP check_environment] WARNING The following executables are missing:[0m
+[1m[33m[13:35 EnzyHTP check_environment] WARNING       mono[0m
+[1m[33m[13:35 EnzyHTP check_environment] WARNING Some elements are missing in environment. Not all functionality will be possible.[0m
+[1m[13:35 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[13:35 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/__temp.pdb' exists and will be overwritten[0m
+[1m[33m[13:35 EnzyHTP run_command] WARNING (dev-only) Using unregistered executable: '/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono'[0m
+[1m[33m[13:35 EnzyHTP run_command] WARNING     Please add it to corresponding config.required_executables if this is a long-term use[0m
+[1m[13:35 EnzyHTP run_command] INFO Running command: `/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono $HOME/Mole2/mole2.exe /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/__mole2_input.xml`...[0m
+[1m[13:35 EnzyHTP run_command] INFO finished `/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono $HOME/Mole2/mole2.exe /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/__mole2_input.xml` after 1 tries @2024-03-04 13:35:48[0m
+[1m[13:35 EnzyHTP identify_cavities] INFO Found 10 cavities using probe radius of 5.000 A and inner radius of 1.050 A[0m
+[1m[13:37 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[13:37 EnzyHTP write_lines] WARNING The file 'assembled.pdb' exists and will be overwritten[0m
+[1m[13:37 EnzyHTP generate_ligand_params] INFO Beginning preparation of each reactant...[0m
+[1m[33m[13:37 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_docking//docking_script.xml' exists and will be overwritten[0m
+[1m[13:37 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[13:37 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_docking//start.pdb' exists and will be overwritten[0m
+[1m[33m[13:37 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_docking//constraints.cst' exists and will be overwritten[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO Beginning creation of options file for Rosetta...[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	options file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_docking/docking_options.txt[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	score file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_docking//docking_scores.sc[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	enzyme-reactant complexes directory: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_docking//[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	qsar_gird directory: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_docking/qsar_grids[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO Wrote the below settings to /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_docking/docking_options.txt:[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	-keep_input_protonation_state[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	-auto_setup_metals[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	-run:constant_seed[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	-run:jran 1996[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	-in:file[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -s 'start.pdb'[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/UB7.params'[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P1.params'[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P2.params'[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//LYS_D.params'[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P1.params'[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//TYR_D.params'[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//HIS_P.params'[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P2.params'[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	-run:preserve_header[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	-packing[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -ex1[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -ex2aro[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -ex2 [0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -no_optH false[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -flip_HNQ true[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	    -ignore_ligand_chi true[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	-parser[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	   -protocol /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_docking/docking_script.xml[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	   -script_vars ligand_chain=Z \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                sasa_cutoff=85 \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                clash_cutoff=3 \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                contact_threshold=3.0 \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                ligand_idx=1Z \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                cst_cutoff=1500 \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                cst_file=/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_docking//constraints.cst \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                box_size=50.0 \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                move_distance=40.0 \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                transform_angle=360 \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                transform_cycles=1000 \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                transform_repeats=3 \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                transform_temperature=5 \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                fr_repeats=1 \[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	                grid_width=50.0[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	-out[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	   -file:scorefile 'docking_scores.sc'[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	   -level 200[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	   -nstruct 20[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	   -overwrite[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	   -path[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	       -all '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_docking/'[0m
+[1m[13:37 EnzyHTP create_docking_options] INFO 	-qsar:grid_dir /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_docking/qsar_grids[0m
+[1m[13:37 EnzyHTP dock_ligand] INFO Beginning RosettaLigand geometry sampling step...[0m
+[1m[13:37 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @docking_options.txt`...[0m
+[1m[14:10 EnzyHTP run_command] INFO finished `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @docking_options.txt` after 1 tries @2024-03-04 14:10:57[0m
+[1m[14:10 EnzyHTP evaluate_geometry_qm_energy] INFO Beginning qm energy evaluation.[0m
+[1m[14:10 EnzyHTP get_active_site_sele] INFO Analyzing enzyme active site...[0m
+[1m[14:10 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[14:10 EnzyHTP get_active_site_sele] INFO Found 4 residues within 2.5 angstroms of reactants![0m
+[1m[33m[14:10 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:08[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:11[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:14[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:17[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:20[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:23[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:26[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:29[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:32[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:35[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:38[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:41[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:44[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:46[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:49[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:52[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:55[0m
+[1m[33m[14:11 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:11:59[0m
+[1m[33m[14:12 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:12 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:12 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:12:01[0m
+[1m[33m[14:12 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:12 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt`...[0m
+[1m[14:12 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 14:12:04[0m
+[1m[14:12 EnzyHTP evaluate_geometry_qm_energy] INFO Finished qm energy evaluation![0m
+[1m[14:12 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[14:12 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[14:12 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO Beginning creation of options file for Rosetta...[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	options file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization/minimization_options.txt[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	score file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization//minimization_scores.sc[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	enzyme-reactant complexes directory: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization//complexes[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO Wrote the below settings to /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization/minimization_options.txt:[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	-keep_input_protonation_state[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	-auto_setup_metals[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	-run:constant_seed[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	-run:jran 1996[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	-in:file[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -s 'start.pdb'[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/UB7.params'[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P1.params'[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P2.params'[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//LYS_D.params'[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P1.params'[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//TYR_D.params'[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//HIS_P.params'[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P2.params'[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	-run:preserve_header[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	-packing[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -ex1[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -ex2aro[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -ex2 [0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -no_optH false[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -flip_HNQ true[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	    -ignore_ligand_chi true[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	-parser[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	   -protocol /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization/minimization_script.xml[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	   -script_vars ligand_idx=209A,1Z \[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	                contact_threshold=3.0 \[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	                ramp_constraints=false \[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	                cst_file=/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization//constraints.cst \[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	                fr_repeats=1[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	-out[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	   -file:scorefile 'minimization_scores.sc'[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	   -level 200[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	   -overwrite[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	   -path[0m
+[1m[14:12 EnzyHTP create_minimization_options] INFO 	       -all '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization/'[0m
+[1m[14:12 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @minimization_options.txt`...[0m
+[1m[14:13 EnzyHTP run_command] INFO finished `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @minimization_options.txt` after 1 tries @2024-03-04 14:13:50[0m
+[1m[14:13 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[14:13 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[14:13 EnzyHTP get_active_site_sele] INFO Analyzing enzyme active site...[0m
+[1m[14:13 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[14:13 EnzyHTP get_active_site_sele] INFO Found 5 residues within 2.5 angstroms of reactants![0m
+[1m[33m[14:13 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[14:13 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_OPT/xtb_settings.inp --opt normal /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_OPT/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_OPT/xtb_log.txt`...[0m
+[1m[14:14 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_OPT/xtb_settings.inp --opt normal /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_OPT/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_OPT/xtb_log.txt` after 1 tries @2024-03-04 14:14:34[0m
+[1m[14:14 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[14:14 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization//minimization_script.xml' exists and will be overwritten[0m
+[1m[14:14 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[14:14 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization//start.pdb' exists and will be overwritten[0m
+[1m[33m[14:14 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization//constraints.cst' exists and will be overwritten[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO Beginning creation of options file for Rosetta...[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	options file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization/minimization_options.txt[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	score file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization//minimization_scores.sc[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	enzyme-reactant complexes directory: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization//complexes[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO Wrote the below settings to /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization/minimization_options.txt:[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	-keep_input_protonation_state[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	-auto_setup_metals[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	-run:constant_seed[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	-run:jran 1996[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	-in:file[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -s 'start.pdb'[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/UB7.params'[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P1.params'[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P2.params'[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//LYS_D.params'[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P1.params'[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//TYR_D.params'[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//HIS_P.params'[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P2.params'[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	-run:preserve_header[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	-packing[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -ex1[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -ex2aro[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -ex2 [0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -no_optH false[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -flip_HNQ true[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	    -ignore_ligand_chi true[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	-parser[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	   -protocol /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization/minimization_script.xml[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	   -script_vars ligand_idx=209A,1Z \[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	                contact_threshold=3.0 \[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	                ramp_constraints=true \[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	                cst_file=/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization//constraints.cst \[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	                fr_repeats=1[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	-out[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	   -file:scorefile 'minimization_scores.sc'[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	   -level 200[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	   -overwrite[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	   -path[0m
+[1m[14:14 EnzyHTP create_minimization_options] INFO 	       -all '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/scratch/rosetta_minimization/'[0m
+[1m[14:14 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @minimization_options.txt`...[0m
+[1m[14:16 EnzyHTP run_command] INFO finished `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @minimization_options.txt` after 1 tries @2024-03-04 14:16:20[0m
+[1m[14:16 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[14:16 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[14:16 EnzyHTP get_active_site_sele] INFO Analyzing enzyme active site...[0m
+[1m[14:16 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[14:16 EnzyHTP get_active_site_sele] INFO Found 4 residues within 2.5 angstroms of reactants![0m
+[1m[33m[14:16 EnzyHTP involved_residues_with_free_terminal] WARNING UB7 found. Not considered[0m
+[1m[33m[14:16 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_OPT/xtb_settings.inp' exists and will be overwritten[0m
+[1m[14:16 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_OPT/xtb_settings.inp --opt normal /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_OPT/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_OPT/xtb_log.txt`...[0m
+[1m[14:16 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_OPT/xtb_settings.inp --opt normal /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_OPT/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_OPT/xtb_log.txt` after 1 tries @2024-03-04 14:16:42[0m
+[1m[14:16 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[14:16 EnzyHTP renumber_atoms] INFO renumbering atoms[0m

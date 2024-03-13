@@ -1,0 +1,11 @@
+# created with PyMOL 2.4.0
+@<TRIPOS>MOLECULE
+__afill_temp_filled
+1 0 1                   
+SMALL
+USER_CHARGES
+@<TRIPOS>ATOM
+1	  MG	44.768	23.634	3.250	Mg	1	MG1	0.000	
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+1	MG1	1	GROUP	1 B	MG

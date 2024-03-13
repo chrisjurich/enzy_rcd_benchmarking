@@ -1,0 +1,647 @@
+
+Inactive Modules:
+  1) PMIx/.3.1.5     4) hwloc/.2.2.0          7) libpciaccess/.0.16
+  2) UCX/.1.9.0      5) libevent/.2.1.12      8) libxml2/.2.9.10
+  3) XZ/.5.2.5       6) libfabric/.1.11.0     9) numactl/.2.0.13
+
+Activating Modules:
+  1) Mono/4.6.2.7
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) binutils/.2.35     2) zlib/.1.2.11
+
+The following have been reloaded with a version change:
+  1) GCCcore/.10.2.0 => GCCcore/.5.4.0
+
+
+Inactive Modules:
+  1) Mono/4.6.2.7
+
+Activating Modules:
+  1) PMIx/.3.1.5     4) hwloc/.2.2.0          7) libpciaccess/.0.16
+  2) UCX/.1.9.0      5) libevent/.2.1.12      8) libxml2/.2.9.10
+  3) XZ/.5.2.5       6) libfabric/.1.11.0     9) numactl/.2.0.13
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) binutils/.2.35     2) zlib/.1.2.11
+
+The following have been reloaded with a version change:
+  1) GCCcore/.5.4.0 => GCCcore/.10.2.0
+
+
+The following have been reloaded with a version change:
+  1) Gaussian/.16.B.01-AVX => Gaussian/.16.B.01-AVX2
+
+[1m[00:42 EnzyHTP load_config] INFO Found config file: /home/jurichc/.eh_config...[0m
+[1m[00:42 EnzyHTP load_config] INFO Updated 8 config settings![0m
+[1m[00:42 EnzyHTP check_environment] INFO Beginning environment check...[0m
+[1m[00:42 EnzyHTP check_environment] INFO Environment check complete![0m
+[1m[33m[00:42 EnzyHTP check_environment] WARNING The following executables are missing:[0m
+[1m[33m[00:42 EnzyHTP check_environment] WARNING       mono[0m
+[1m[33m[00:42 EnzyHTP check_environment] WARNING Some elements are missing in environment. Not all functionality will be possible.[0m
+[1m[00:42 EnzyHTP _place_alphafill] INFO Beginnning placement of ligand Ligand(1, SAM, atom:50, Chain(Y, residue: 1)) into the structure...[0m
+[1m[00:42 EnzyHTP _place_alphafill] INFO Calling out to AlphaFill to fill structure...[0m
+[1m[00:42 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[00:42 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__afill_temp.pdb' exists and will be overwritten[0m
+[1m[00:42 EnzyHTP fill_structure] INFO The supplied file /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__afill_temp.pdb is .pdb format. Converting to mmCIF...[0m
+[1m[00:42 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/home/jurichc/projects/maxit-v11.100-prod-src/bin/maxit -input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__afill_temp.pdb -output /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__afill_temp.cif -o 1`...[0m
+[1m[00:42 EnzyHTP run_command] INFO finished `/dors/meilerlab/home/jurichc/projects/maxit-v11.100-prod-src/bin/maxit -input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__afill_temp.pdb -output /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__afill_temp.cif -o 1` after 1 tries @2024-03-04 00:42:49[0m
+[1m[00:42 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/home/jurichc/projects/alphafill/alphafill --config /dors/meilerlab/home/jurichc/projects/alphafill/alphafill.conf process /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__afill_temp.cif /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__afill_temp_filled.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/dors/meilerlab/home/jurichc/projects/alphafill/alphafill --config /dors/meilerlab/home/jurichc/projects/alphafill/alphafill.conf process /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__afill_temp.cif /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__afill_temp_filled.cif` after 1 tries @2024-03-04 00:43:19[0m
+[1m[00:43 EnzyHTP _place_alphafill] INFO Filled structure using AlphaFill![0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//SAM.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//SAM.cif` after 1 tries @2024-03-04 00:43:19[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif` after 1 tries @2024-03-04 00:43:20[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif` after 1 tries @2024-03-04 00:43:20[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif` after 1 tries @2024-03-04 00:43:20[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif` after 1 tries @2024-03-04 00:43:20[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//TAM.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//TAM.cif` after 1 tries @2024-03-04 00:43:20[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//TAM.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//TAM.cif` after 1 tries @2024-03-04 00:43:21[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif` after 1 tries @2024-03-04 00:43:21[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif` after 1 tries @2024-03-04 00:43:21[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//C2F.cif` after 1 tries @2024-03-04 00:43:21[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//TAM.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//TAM.cif` after 1 tries @2024-03-04 00:43:22[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//SAH.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//SAH.cif` after 1 tries @2024-03-04 00:43:22[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//BET.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//BET.cif` after 1 tries @2024-03-04 00:43:22[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//BET.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//BET.cif` after 1 tries @2024-03-04 00:43:22[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//DMG.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//DMG.cif` after 1 tries @2024-03-04 00:43:23[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//TLO.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//TLO.cif` after 1 tries @2024-03-04 00:43:23[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//T3Q.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//T3Q.cif` after 1 tries @2024-03-04 00:43:23[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//TLO.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//TLO.cif` after 1 tries @2024-03-04 00:43:23[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//SAH.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//SAH.cif` after 1 tries @2024-03-04 00:43:24[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/usr/bin/wget https://files.rcsb.org/ligands/download//ADP.cif` after 1 tries @2024-03-04 00:43:24[0m
+[1m[00:43 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[00:43 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__temp.pdb' exists and will be overwritten[0m
+[1m[33m[00:43 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__temp_ligand.mol2' exists and will be overwritten[0m
+[00:43:24] __afill_temp_filled: Warning - no explicit hydrogens in mol2 file but needed for formal charge estimation.
+[1m[00:43 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[00:43 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__temp.pdb' exists and will be overwritten[0m
+[1m[33m[00:43 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__mole2_input.xml' exists and will be overwritten[0m
+[1m[33m[00:43 EnzyHTP run_command] WARNING (dev-only) Using unregistered executable: '/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono'[0m
+[1m[33m[00:43 EnzyHTP run_command] WARNING     Please add it to corresponding config.required_executables if this is a long-term use[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono $HOME/Mole2/mole2.exe /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__mole2_input.xml`...[0m
+[1m[00:43 EnzyHTP run_command] INFO finished `/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono $HOME/Mole2/mole2.exe /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/__mole2_input.xml` after 1 tries @2024-03-04 00:43:27[0m
+[1m[00:43 EnzyHTP identify_cavities] INFO Found 4 cavities using probe radius of 5.000 A and inner radius of 1.050 A[0m
+[1m[00:43 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[00:43 EnzyHTP generate_ligand_params] INFO Beginning preparation of each reactant...[0m
+[1m[00:43 EnzyHTP run_command] INFO Running command: `/usr/bin/python2.7 $ROSETTA3/source/scripts/python/public/molfile_to_params.py /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/SAM.mol2 --name=SAM --clobber --keep-names`...[0m
+[1m[00:44 EnzyHTP run_command] INFO finished `/usr/bin/python2.7 $ROSETTA3/source/scripts/python/public/molfile_to_params.py /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/SAM.mol2 --name=SAM --clobber --keep-names` after 1 tries @2024-03-04 00:44:00[0m
+[1m[00:44 EnzyHTP parameterize_ligand] INFO /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/SAM.params[0m
+[1m[33m[00:44 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/SAM.params' exists and will be overwritten[0m
+[1m[00:44 EnzyHTP generate_ligand_params] INFO Information for reactant SAM:[0m
+[1m[00:44 EnzyHTP generate_ligand_params] INFO 	param file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/SAM.params[0m
+[1m[00:44 EnzyHTP generate_ligand_params] INFO 	charge: 1[0m
+[1m[00:44 EnzyHTP generate_ligand_params] INFO 	num conformers: 1[0m
+[1m[00:44 EnzyHTP generate_ligand_params] INFO Finished reactant preparation![0m
+[1m[00:44 EnzyHTP generate_ligand_params] INFO Beginning preparation of each reactant...[0m
+[1m[00:44 EnzyHTP run_command] INFO Running command: `/usr/bin/python2.7 $ROSETTA3/source/scripts/python/public/molfile_to_params.py /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/ACT.mol2 --name=ACT --clobber --keep-names`...[0m
+[1m[00:44 EnzyHTP run_command] INFO finished `/usr/bin/python2.7 $ROSETTA3/source/scripts/python/public/molfile_to_params.py /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/ACT.mol2 --name=ACT --clobber --keep-names` after 1 tries @2024-03-04 00:44:00[0m
+[1m[00:44 EnzyHTP parameterize_ligand] INFO /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/ACT.params[0m
+[1m[33m[00:44 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/ACT.params' exists and will be overwritten[0m
+[1m[00:44 EnzyHTP generate_ligand_params] INFO Information for reactant ACT:[0m
+[1m[00:44 EnzyHTP generate_ligand_params] INFO 	param file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/ACT.params[0m
+[1m[00:44 EnzyHTP generate_ligand_params] INFO 	charge: -1[0m
+[1m[00:44 EnzyHTP generate_ligand_params] INFO 	num conformers: 1[0m
+[1m[00:44 EnzyHTP generate_ligand_params] INFO Finished reactant preparation![0m
+[1m[00:44 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO Beginning creation of options file for Rosetta...[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	options file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_docking/docking_options.txt[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	score file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_docking//docking_scores.sc[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	enzyme-reactant complexes directory: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_docking//[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	qsar_gird directory: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_docking/qsar_grids[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO Wrote the below settings to /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_docking/docking_options.txt:[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	-keep_input_protonation_state[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	-auto_setup_metals[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	-run:constant_seed[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	-run:jran 1996[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	-in:file[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -s 'start.pdb'[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/SAM.params'[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/ACT.params'[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P1.params'[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P2.params'[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//LYS_D.params'[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P1.params'[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//TYR_D.params'[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//HIS_P.params'[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P2.params'[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	-run:preserve_header[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	-packing[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -ex1[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -ex2aro[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -ex2 [0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -no_optH false[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -flip_HNQ true[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	    -ignore_ligand_chi true[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	-parser[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	   -protocol /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_docking/docking_script.xml[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	   -script_vars ligand_chain=Z \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                sasa_cutoff=29 \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                clash_cutoff=3 \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                contact_threshold=3.0 \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                ligand_idx=1Z \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                cst_cutoff=2000 \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                cst_file=/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_docking//constraints.cst \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                box_size=50.0 \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                move_distance=40.0 \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                transform_angle=360 \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                transform_cycles=1000 \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                transform_repeats=3 \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                transform_temperature=5 \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                fr_repeats=1 \[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	                grid_width=50.0[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	-out[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	   -file:scorefile 'docking_scores.sc'[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	   -level 200[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	   -nstruct 100[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	   -overwrite[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	   -path[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	       -all '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_docking/'[0m
+[1m[00:44 EnzyHTP create_docking_options] INFO 	-qsar:grid_dir /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_docking/qsar_grids[0m
+[1m[00:44 EnzyHTP dock_ligand] INFO Beginning RosettaLigand geometry sampling step...[0m
+[1m[00:44 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @docking_options.txt`...[0m
+[1m[33m[03:02 EnzyHTP run_command] WARNING Error running /dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @docking_options.txt: CalledProcessError(1, '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @docking_options.txt')[0m
+[1m[31m[03:02 EnzyHTP run_command] ERROR Failed running `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @docking_options.txt` after 1 tries @2024-03-04 03:02:25[0m
+[1m[03:02 EnzyHTP evaluate_geometry_qm_energy] INFO Beginning qm energy evaluation.[0m
+[1m[03:02 EnzyHTP get_active_site_sele] INFO Analyzing enzyme active site...[0m
+[1m[03:02 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[03:02 EnzyHTP get_active_site_sele] INFO Found 10 residues within 2.5 angstroms of reactants![0m
+[1m[33m[03:02 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:02 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:02 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:02 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:02:44[0m
+[1m[33m[03:02 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:02 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:02 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:02 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:02:53[0m
+[1m[33m[03:02 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:02 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:02 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:03 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:03:04[0m
+[1m[33m[03:03 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:03 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:03 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:03 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:03:14[0m
+[1m[33m[03:03 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:03 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:03 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:03 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:03:25[0m
+[1m[33m[03:03 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:03 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:03 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:03 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:03:35[0m
+[1m[33m[03:03 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:03 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:03 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:03 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:03:46[0m
+[1m[33m[03:03 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:03 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:03 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:03 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:03:57[0m
+[1m[33m[03:03 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:03 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:03 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:04 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:04:07[0m
+[1m[33m[03:04 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:04 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:04 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:04 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:04:19[0m
+[1m[33m[03:04 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:04 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:04 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:04 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:04:30[0m
+[1m[33m[03:04 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:04 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:04 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:04 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:04:42[0m
+[1m[33m[03:04 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:04 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:04 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:04 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:04:52[0m
+[1m[33m[03:04 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:04 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:04 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:05 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:05:02[0m
+[1m[33m[03:05 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:05 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:05 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:05 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:05:13[0m
+[1m[33m[03:05 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:05 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:05 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:05 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:05:23[0m
+[1m[33m[03:05 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:05 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:05 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:05 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:05:34[0m
+[1m[33m[03:05 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:05 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:05 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:05 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:05:44[0m
+[1m[33m[03:05 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:05 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:05 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:05 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:05:54[0m
+[1m[33m[03:05 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:05 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:05 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:06 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:06:04[0m
+[1m[33m[03:06 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:06 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:06 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:06 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:06:14[0m
+[1m[33m[03:06 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:06 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:06 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:06 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:06:23[0m
+[1m[33m[03:06 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:06 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:06 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:06 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:06:34[0m
+[1m[33m[03:06 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:06 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:06 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:06 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:06:45[0m
+[1m[33m[03:06 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:06 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:06 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:06 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:06:55[0m
+[1m[33m[03:06 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:06 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:06 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:07 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:07:06[0m
+[1m[33m[03:07 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:07 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:07 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:07 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:07:16[0m
+[1m[33m[03:07 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:07 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:07 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:07 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:07:29[0m
+[1m[33m[03:07 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:07 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:07 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:07 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:07:40[0m
+[1m[33m[03:07 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:07 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:07 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:07 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:07:51[0m
+[1m[33m[03:07 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:07 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:07 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:08 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:08:02[0m
+[1m[33m[03:08 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:08 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:08 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:08 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:08:13[0m
+[1m[33m[03:08 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:08 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:08 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:08 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:08:23[0m
+[1m[33m[03:08 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:08 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:08 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:08 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:08:34[0m
+[1m[33m[03:08 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:08 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:08 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:08 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:08:45[0m
+[1m[33m[03:08 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:08 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:08 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:08 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:08:56[0m
+[1m[33m[03:08 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:08 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:08 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:09 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:09:07[0m
+[1m[33m[03:09 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:09 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:09 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:09 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:09:17[0m
+[1m[33m[03:09 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:09 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:09 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:09 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:09:27[0m
+[1m[33m[03:09 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:09 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:09 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:09 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:09:39[0m
+[1m[33m[03:09 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:09 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:09 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:09 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:09:49[0m
+[1m[33m[03:09 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:09 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:09 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:10 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:10:00[0m
+[1m[33m[03:10 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:10 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:10 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:10 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:10:12[0m
+[1m[33m[03:10 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:10 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:10 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:10 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:10:22[0m
+[1m[33m[03:10 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:10 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:10 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:10 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:10:32[0m
+[1m[33m[03:10 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:10 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:10 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:10 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:10:44[0m
+[1m[33m[03:10 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:10 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:10 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:10 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:10:54[0m
+[1m[33m[03:10 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:10 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:10 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:11:05[0m
+[1m[33m[03:11 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:11 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:11:15[0m
+[1m[33m[03:11 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:11 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:11:25[0m
+[1m[33m[03:11 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:11 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:11:36[0m
+[1m[33m[03:11 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:11 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:11:47[0m
+[1m[33m[03:11 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:11 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:11 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:11:58[0m
+[1m[33m[03:12 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:12 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:12 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:12 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:12:08[0m
+[1m[33m[03:12 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:12 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:12 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:12 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:12:18[0m
+[1m[33m[03:12 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:12 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:12 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:12 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:12:28[0m
+[1m[33m[03:12 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:12 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:12 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:12 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:12:38[0m
+[1m[33m[03:12 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:12 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:12 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:12 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:12:48[0m
+[1m[33m[03:12 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:12 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:12 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:12 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:12:59[0m
+[1m[33m[03:13 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:13 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:13 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:13 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:13:10[0m
+[1m[33m[03:13 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:13 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:13 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:13 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:13:21[0m
+[1m[33m[03:13 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:13 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:13 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:13 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:13:32[0m
+[1m[33m[03:13 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:13 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:13 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:13 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:13:43[0m
+[1m[33m[03:13 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:13 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:13 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:13 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:13:54[0m
+[1m[33m[03:13 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:13 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:13 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:14 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:14:05[0m
+[1m[33m[03:14 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:14 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:14 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:14 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:14:16[0m
+[1m[33m[03:14 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:14 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:14 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:14 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:14:27[0m
+[1m[33m[03:14 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:14 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:14 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:14 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:14:36[0m
+[1m[33m[03:14 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:14 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:14 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:14 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:14:46[0m
+[1m[33m[03:14 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:14 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:14 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:14 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:14:56[0m
+[1m[33m[03:14 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:14 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:14 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:15 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:15:06[0m
+[1m[33m[03:15 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:15 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:15 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:15 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:15:18[0m
+[1m[33m[03:15 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:15 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:15 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:15 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:15:28[0m
+[1m[33m[03:15 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:15 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:15 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:15 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:15:39[0m
+[1m[33m[03:15 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:15 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:15 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:15 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:15:49[0m
+[1m[33m[03:15 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:15 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:15 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:16 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:16:00[0m
+[1m[33m[03:16 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:16 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:16 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:16 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:16:11[0m
+[1m[33m[03:16 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:16 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:16 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:16 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:16:22[0m
+[1m[33m[03:16 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:16 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:16 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:16 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:16:34[0m
+[1m[33m[03:16 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:16 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:16 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:16 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:16:44[0m
+[1m[33m[03:16 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:16 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:16 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:16 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:16:55[0m
+[1m[33m[03:16 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:16 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:16 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:17 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:17:06[0m
+[1m[33m[03:17 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:17 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:17 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:17 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:17:16[0m
+[1m[33m[03:17 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:17 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:17 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:17 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:17:26[0m
+[1m[33m[03:17 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:17 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:17 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:17 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:17:36[0m
+[1m[33m[03:17 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:17 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:17 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt`...[0m
+[1m[03:17 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_SPE/xtb_log.txt` after 1 tries @2024-03-04 03:17:47[0m
+[1m[03:17 EnzyHTP evaluate_geometry_qm_energy] INFO Finished qm energy evaluation![0m
+[1m[03:17 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[03:17 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[03:17 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO Beginning creation of options file for Rosetta...[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	options file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization/minimization_options.txt[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	score file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization//minimization_scores.sc[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	enzyme-reactant complexes directory: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization//complexes[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO Wrote the below settings to /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization/minimization_options.txt:[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	-keep_input_protonation_state[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	-auto_setup_metals[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	-run:constant_seed[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	-run:jran 1996[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	-in:file[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -s 'start.pdb'[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/SAM.params'[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/ACT.params'[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P1.params'[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P2.params'[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//LYS_D.params'[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P1.params'[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//TYR_D.params'[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//HIS_P.params'[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P2.params'[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	-run:preserve_header[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	-packing[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -ex1[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -ex2aro[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -ex2 [0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -no_optH false[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -flip_HNQ true[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	    -ignore_ligand_chi true[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	-parser[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	   -protocol /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization/minimization_script.xml[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	   -script_vars ligand_idx=1Y,1Z \[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	                contact_threshold=3.0 \[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	                ramp_constraints=false \[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	                cst_file=/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization//constraints.cst \[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	                fr_repeats=1[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	-out[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	   -file:scorefile 'minimization_scores.sc'[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	   -level 200[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	   -overwrite[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	   -path[0m
+[1m[03:17 EnzyHTP create_minimization_options] INFO 	       -all '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization/'[0m
+[1m[03:17 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @minimization_options.txt`...[0m
+[1m[03:19 EnzyHTP run_command] INFO finished `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @minimization_options.txt` after 1 tries @2024-03-04 03:19:40[0m
+[1m[03:19 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[03:19 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[03:19 EnzyHTP get_active_site_sele] INFO Analyzing enzyme active site...[0m
+[1m[03:19 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[03:19 EnzyHTP get_active_site_sele] INFO Found 17 residues within 2.5 angstroms of reactants![0m
+[1m[33m[03:19 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[03:19 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[03:19 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -3 --iterations 1000 --parallel 1 --norestart --input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_OPT/xtb_settings.inp --opt normal /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_OPT/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_OPT/xtb_log.txt`...[0m
+[1m[04:11 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -3 --iterations 1000 --parallel 1 --norestart --input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_OPT/xtb_settings.inp --opt normal /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_OPT/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_OPT/xtb_log.txt` after 1 tries @2024-03-04 04:11:55[0m
+[1m[04:11 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[04:11 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization//minimization_script.xml' exists and will be overwritten[0m
+[1m[04:11 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[04:11 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization//start.pdb' exists and will be overwritten[0m
+[1m[33m[04:11 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization//constraints.cst' exists and will be overwritten[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO Beginning creation of options file for Rosetta...[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	options file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization/minimization_options.txt[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	score file: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization//minimization_scores.sc[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	enzyme-reactant complexes directory: /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization//complexes[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO Wrote the below settings to /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization/minimization_options.txt:[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	-keep_input_protonation_state[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	-auto_setup_metals[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	-run:constant_seed[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	-run:jran 1996[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	-in:file[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -s 'start.pdb'[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/SAM.params'[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/ACT.params'[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P1.params'[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//GLU_P2.params'[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//LYS_D.params'[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P1.params'[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//TYR_D.params'[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//HIS_P.params'[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -extra_res_fa '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//database/chemical/residue_type_sets/fa_standard/residue_types/protonation_states//ASP_P2.params'[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	-run:preserve_header[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	-packing[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -ex1[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -ex2aro[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -ex2 [0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -no_optH false[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -flip_HNQ true[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	    -ignore_ligand_chi true[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	-parser[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	   -protocol /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization/minimization_script.xml[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	   -script_vars ligand_idx=1Y,1Z \[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	                contact_threshold=3.0 \[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	                ramp_constraints=true \[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	                cst_file=/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization//constraints.cst \[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	                fr_repeats=1[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	-out[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	   -file:scorefile 'minimization_scores.sc'[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	   -level 200[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	   -overwrite[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	   -path[0m
+[1m[04:11 EnzyHTP create_minimization_options] INFO 	       -all '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_minimization/'[0m
+[1m[04:11 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @minimization_options.txt`...[0m
+[1m[04:13 EnzyHTP run_command] INFO finished `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @minimization_options.txt` after 1 tries @2024-03-04 04:13:51[0m
+[1m[04:13 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[04:13 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[04:13 EnzyHTP get_active_site_sele] INFO Analyzing enzyme active site...[0m
+[1m[04:13 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[04:13 EnzyHTP get_active_site_sele] INFO Found 14 residues within 2.5 angstroms of reactants![0m
+[1m[33m[04:13 EnzyHTP involved_residues_with_free_terminal] WARNING SAM found. Not considered[0m
+[1m[33m[04:13 EnzyHTP involved_residues_with_free_terminal] WARNING ACT found. Not considered[0m
+[1m[33m[04:13 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_OPT/xtb_settings.inp' exists and will be overwritten[0m
+[1m[04:13 EnzyHTP run_command] INFO Running command: `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_OPT/xtb_settings.inp --opt normal /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_OPT/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_OPT/xtb_log.txt`...[0m
+[1m[04:39 EnzyHTP run_command] INFO finished `/home/jurichc/xtb-6.6.1/bin/xtb --chrg -2 --iterations 1000 --parallel 1 --norestart --input /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_OPT/xtb_settings.inp --opt normal /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_OPT/xtb_coords.mol > /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/QM_OPT/xtb_log.txt` after 1 tries @2024-03-04 04:39:17[0m
+[1m[04:39 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[04:39 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
