@@ -29,9 +29,9 @@ stru.add(DAR, chain_name='Z', net_charge= 1, multiplicity=1)
 
 constraints = eh.structure.structure_constraints_from_xml(stru, "constraints.xml")
 
-eh.preparation.place_ligand(stru, 'X', 1)
-eh.preparation.place_ligand(stru, 'Y', 1, method='mole2', constraints=[constraints[-1]])
-eh.preparation.place_ligand(stru, 'Z', 1, method='mole2', constraints=[constraints[-2]])
+eh.preparation.seed_ligand(stru, 'X', 1)
+eh.preparation.seed_ligand(stru, 'Y', 1, method='mole2', constraints=[constraints[-1]])
+eh.preparation.seed_ligand(stru, 'Z', 1, method='mole2', constraints=[constraints[-2]])
 
 
 eh.preparation.place_ligand(stru, 'B', 1)

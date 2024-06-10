@@ -14,7 +14,7 @@ prefix='../../starting_points/1nbh/'
 sp = eh.PDBParser()
 lp = eh.Mol2Parser()
 
-stru = sp.get_structure(f'{prefix}/full_chain_renumbered.pdb')
+stru = sp.get_structure(f'{prefix}/filled.pdb')
 
 SAM = lp.get_ligand(f"{prefix}/SAM.mol2")
 ACT = lp.get_ligand(f"{prefix}/ACT.mol2")
