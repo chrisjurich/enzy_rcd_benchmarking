@@ -27,19 +27,16 @@ constraints = eh.structure.structure_constraints_from_xml(stru, "constraints.xml
 eh.preparation.seed_ligand(stru, stru.get('Z.1'), method='mole2', constraints=constraints, minimize=True)
 sp.save_structure('assembled.pdb', stru)
 
-##
-##sp.save_structure('temp.pdb', stru)
-##stru = sp.get_structure('temp.pdb')
-#
-#eh.dock_reactants( stru,
-#                    [stru.get('Z.1')],
-#                    constraints=constraints,
-#                    n_struct=20,
-#                    cluster_distance=2.5,
-#                    cst_energy=5000,
-#                    box_size=100,
-#                    max_sasa_ratio=1.0,
-#                    clash_cutoff=50
-#                    )
-#
-#sp.save_structure('final.pdb', stru)
+
+eh.dock_reactants( stru,
+                    [stru.get('Z.1')],
+                    constraints=constraints,
+                    n_struct=20,
+                    cluster_distance=2.5,
+                    cst_energy=5000,
+                    box_size=100,
+                    max_sasa_ratio=1.0,
+                    clash_cutoff=50
+                    )
+
+sp.save_structure('final.pdb', stru)
