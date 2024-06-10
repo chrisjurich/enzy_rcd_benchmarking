@@ -1,135 +1,256 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Cavities Version="2.5.17.4.24">
-  <Cavity Type="Cavity" Volume="3638.844" Depth="22" DepthLength="23.737883480973093" Id="1">
+  <Cavity Type="Cavity" Volume="1403.776" Depth="28" DepthLength="28.671194564632515" Id="1">
     <Boundary>
-      <Residues>PRO 9 A,GLU 13 A,SER 15 A,GLU 17 A,ALA 18 A,VAL 19 A,ARG 20 A,PRO 22 A,THR 42 A,TYR 44 A,THR 64 A,ALA 65 A,GLY 66 A,GLN 67 A,GLU 68 A,ALA 71 A,TRP 72 A,ARG 76 A,ARG 92 A,ALA 142 A,ASN 143 A,THR 145 A,SER 146 A,GLU 148 A,SER 163 A,SER 164 A,ARG 166 A,ARG 205 A,GLY 206 A,ALA 207 A,SER 208 A,LEU 210 A,ASN 213 A,THR 214 A,PRO 215 A,ASP 216 A,THR 217 A,ASP 233 A,GLU 238 A,GLN 239 A,CYS 242 A,PRO 243 A,ALA 244 A,PRO 245 A,ASP 246 A,PHE 248 A,ALA 249 A,ILE 250 A,SER 251 A,GLU 252 A,TYR 253 A,SER 255 A,CYS 257 A,GLU 261 A,HIS 262 A,HIS 267 A</Residues>
-      <Properties Charge="-5" NumPositives="5" NumNegatives="10" Hydrophobicity="-0.56" Hydropathy="-0.79" Polarity="9.84" Mutability="84" />
+      <Residues>PRO 9 A,THR 12 A,GLU 13 A,SER 15 A,PRO 22 A,VAL 211 A,THR 214 A,PRO 215 A,ASP 216 A,GLN 239 A,CYS 242 A,PRO 243 A,PRO 245 A,ASP 246 A</Residues>
+      <Properties Charge="-3" NumPositives="0" NumNegatives="3" Hydrophobicity="-0.59" Hydropathy="-0.82" Polarity="7.67" Mutability="78" />
     </Boundary>
     <Inner>
-      <Residues>ARG 7 A,GLY 8 A,PRO 11 A,ILE 16 A,GLY 21 A,GLY 55 A,ALA 56 A,VAL 57 A,ILE 59 A,GLY 62 A,PHE 63 A,SER 69 A,ILE 70 A,LEU 73 A,GLY 74 A,PRO 75 A,ILE 77 A,ALA 78 A,SER 79 A,GLN 80 A,PHE 82 A,VAL 83 A,VAL 84 A,ILE 85 A,THR 86 A,MET 128 A,GLY 129 A,HIS 130 A,ALA 141 A,ASN 144 A,LEU 147 A,ILE 151 A,LEU 153 A,GLN 154 A,VAL 165 A,THR 167 A,PRO 168 A,LEU 170 A,VAL 171 A,VAL 172 A,GLY 173 A,ALA 174 A,LEU 197 A,ASP 198 A,LYS 199 A,ALA 200 A,TYR 201 A,MET 202 A,GLU 203 A,LEU 204 A,VAL 211 A,SER 212 A,THR 218 A,THR 219 A,ALA 220 A,LYS 221 A,TYR 222 A,SER 223 A,ILE 224 A,TRP 226 A,LEU 227 A,LYS 228 A,ARG 229 A,PHE 230 A,VAL 231 A,ASP 234 A,ARG 236 A,TYR 237 A,PHE 240 A,LEU 241 A,ASP 247 A,PHE 259 A,LEU 260 A</Residues>
-      <Properties Charge="2" NumPositives="6" NumNegatives="4" Hydrophobicity="-0.24" Hydropathy="0.19" Polarity="5.79" Mutability="79" />
+      <Residues>ARG 7 A,GLY 8 A,ASP 10 A,PRO 11 A,ILE 16 A,GLU 17 A,ALA 18 A,ARG 20 A,GLY 21 A,PHE 23 A,ILE 59 A,ILE 70 A,TRP 72 A,LEU 73 A,ARG 76 A,ILE 77 A,GLN 80 A,MET 128 A,ILE 151 A,LEU 153 A,GLN 154 A,LEU 170 A,VAL 171 A,VAL 172 A,ALA 200 A,TYR 201 A,MET 202 A,LEU 204 A,SER 212 A,ASN 213 A,THR 217 A,THR 218 A,THR 219 A,ALA 220 A,LYS 221 A,TYR 222 A,SER 223 A,ILE 224 A,ALA 225 A,TRP 226 A,LEU 227 A,LYS 228 A,ASP 234 A,ARG 236 A,TYR 237 A,PHE 240 A,LEU 241 A,ASP 247 A,TYR 253 A,SER 255 A,CYS 257 A,PHE 259 A</Residues>
+      <Properties Charge="2" NumPositives="6" NumNegatives="4" Hydrophobicity="-0.23" Hydropathy="-0.05" Polarity="6.94" Mutability="78" />
     </Inner>
-    <Properties Charge="-3" NumPositives="11" NumNegatives="14" Hydrophobicity="-0.38" Hydropathy="-0.24" Polarity="7.55" Mutability="81" />
+    <Properties Charge="-1" NumPositives="6" NumNegatives="7" Hydrophobicity="-0.30" Hydropathy="-0.21" Polarity="7.09" Mutability="78" />
   </Cavity>
-  <Cavity Type="Cavity" Volume="1573.489" Depth="24" DepthLength="32.208107666485247" Id="2">
+  <Cavity Type="Cavity" Volume="632.257" Depth="10" DepthLength="10.574931282042433" Id="2">
     <Boundary>
-      <Residues>GLY 66 A,GLU 68 A,ASP 88 A,ARG 92 A,ARG 101 A,GLN 104 A,ARG 111 A,MET 125 A,ASN 143 A,ASN 144 A,SER 146 A,GLN 175 A,ASP 177 A,PRO 181 A,VAL 182 A,SER 183 A</Residues>
-      <Properties Charge="0" NumPositives="3" NumNegatives="3" Hydrophobicity="-0.68" Hydropathy="-1.31" Polarity="11.87" Mutability="87" />
+      <Residues>PHE 63 A,THR 64 A,ALA 65 A,GLY 66 A,GLU 68 A,ARG 92 A,TRP 156 A,THR 178 A,ILE 179 A,PRO 181 A,HIE 185 A,LEU 210 A,ASN 213 A,THR 214 A</Residues>
+      <Properties Charge="0" NumPositives="1" NumNegatives="1" Hydrophobicity="-0.40" Hydropathy="-0.34" Polarity="6.00" Mutability="78" />
     </Boundary>
     <Inner>
-      <Residues>PHE 38 A,GLY 39 A,ALA 58 A,ILE 59 A,SER 60 A,PRO 61 A,ALA 65 A,GLN 67 A,ILE 85 A,ILE 87 A,THR 89 A,ARG 99 A,GLY 100 A,GLN 102 A,LEU 103 A,ALA 106 A,LEU 107 A,ALA 126 A,VAL 127 A,MET 128 A,GLY 129 A,MET 132 A,GLY 133 A,GLY 134 A,GLY 135 A,GLY 136 A,ALA 137 A,LEU 138 A,ALA 140 A,ALA 141 A,ALA 142 A,LEU 147 A,ALA 149 A,ALA 150 A,ILE 151 A,PRO 152 A,LEU 153 A,GLN 154 A,GLY 155 A,TRP 156 A,HIS 157 A,ARG 159 A,TRP 162 A,SER 164 A,VAL 165 A,THR 167 A,THR 169 A,VAL 171 A,VAL 172 A,GLY 173 A,ALA 174 A,ALA 180 A,HIS 185 A,SER 186 A,PHE 189 A,TYR 190 A,LEU 193 A,PRO 194 A,LEU 197 A,LYS 199 A,ALA 200 A,TYR 201 A</Residues>
-      <Properties Charge="3" NumPositives="3" NumNegatives="0" Hydrophobicity="-0.29" Hydropathy="0.18" Polarity="4.07" Mutability="78" />
+      <Residues>PRO 61 A,GLY 62 A,SER 69 A,ILE 70 A,HIE 130 A,ALA 131 A,MET 132 A,GLN 154 A,ALA 180 A,HID 209 A</Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.45" Hydropathy="-0.02" Polarity="2.34" Mutability="88" />
     </Inner>
-    <Properties Charge="3" NumPositives="6" NumNegatives="3" Hydrophobicity="-0.37" Hydropathy="-0.13" Polarity="5.67" Mutability="80" />
+    <Properties Charge="0" NumPositives="1" NumNegatives="1" Hydrophobicity="-0.42" Hydropathy="-0.21" Polarity="4.53" Mutability="82" />
   </Cavity>
-  <Cavity Type="Cavity" Volume="667.185" Depth="24" DepthLength="28.572388452114861" Id="3">
+  <Cavity Type="Cavity" Volume="288.870" Depth="10" DepthLength="10.270995256400013" Id="3">
     <Boundary>
-      <Residues>ARG 111 A,ARG 117 A,ASN 118 A,ILE 120 A,PRO 122 A,ASN 123 A</Residues>
-      <Properties Charge="2" NumPositives="2" NumNegatives="0" Hydrophobicity="-0.46" Hydropathy="-1.29" Polarity="11.06" Mutability="89" />
+      <Residues>MET 1 A,ALA 2 A,GLU 6 A,ASP 10 A,ARG 236 A,GLN 239 A,HID 262 A,HID 265 A</Residues>
+      <Properties Charge="-1" NumPositives="1" NumNegatives="2" Hydrophobicity="-0.65" Hydropathy="-1.04" Polarity="13.11" Mutability="87" />
     </Boundary>
     <Inner>
-      <Residues>VAL 30 A,PHE 38 A,GLY 41 A,ILE 43 A,PHE 54 A,GLY 55 A,ALA 56 A,VAL 57 A,ALA 58 A,VAL 83 A,VAL 84 A,ILE 85 A,ILE 87 A,ALA 106 A,LEU 107 A,HIS 109 A,LEU 110 A,ASN 113 A,VAL 116 A,ARG 119 A,ASP 121 A,ARG 124 A,MET 125 A,ALA 126 A</Residues>
-      <Properties Charge="1" NumPositives="2" NumNegatives="1" Hydrophobicity="-0.13" Hydropathy="0.57" Polarity="6.11" Mutability="85" />
+      <Residues>ASN 3 A,ASP 233 A,ASP 234 A,LEU 235 A</Residues>
+      <Properties Charge="-2" NumPositives="0" NumNegatives="2" Hydrophobicity="-0.61" Hydropathy="-1.04" Polarity="14.55" Mutability="82" />
     </Inner>
-    <Properties Charge="3" NumPositives="4" NumNegatives="1" Hydrophobicity="-0.19" Hydropathy="0.20" Polarity="7.10" Mutability="86" />
+    <Properties Charge="-3" NumPositives="1" NumNegatives="4" Hydrophobicity="-0.64" Hydropathy="-1.04" Polarity="13.64" Mutability="85" />
   </Cavity>
-  <Cavity Type="Cavity" Volume="371.474" Depth="15" DepthLength="16.281551857755353" Id="4">
+  <Cavity Type="Cavity" Volume="261.305" Depth="16" DepthLength="12.841857809874568" Id="4">
     <Boundary>
-      <Residues>GLU 13 A,GLU 17 A,GLN 239 A,PHE 240 A,PRO 243 A,ASP 246 A,ASP 247 A</Residues>
-      <Properties Charge="-4" NumPositives="0" NumNegatives="4" Hydrophobicity="-0.70" Hydropathy="-1.36" Polarity="16.31" Mutability="74" />
+      <Residues>PHE 23 A,THR 49 A,GLN 51 A,GLY 52 A,THR 53 A,ASN 118 A</Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.64" Hydropathy="-0.70" Polarity="2.57" Mutability="83" />
     </Boundary>
     <Inner>
-      <Residues>ILE 16 A,LYS 221 A,TYR 222 A,ILE 224 A,ALA 225 A,TYR 237 A,LEU 241 A,PRO 245 A</Residues>
-      <Properties Charge="1" NumPositives="1" NumNegatives="0" Hydrophobicity="0.01" Hydropathy="0.21" Polarity="5.11" Mutability="73" />
+      <Residues>ARG 7 A,TYR 45 A,PRO 46 A,ASP 48 A,PHE 54 A,VAL 83 A,VAL 116 A,ARG 119 A</Residues>
+      <Properties Charge="1" NumPositives="2" NumNegatives="1" Hydrophobicity="-0.23" Hydropathy="-0.46" Polarity="11.53" Mutability="75" />
     </Inner>
-    <Properties Charge="-3" NumPositives="1" NumNegatives="4" Hydrophobicity="-0.32" Hydropathy="-0.53" Polarity="10.34" Mutability="73" />
+    <Properties Charge="1" NumPositives="2" NumNegatives="1" Hydrophobicity="-0.40" Hydropathy="-0.56" Polarity="7.69" Mutability="79" />
   </Cavity>
-  <Cavity Type="Cavity" Volume="291.345" Depth="10" DepthLength="11.9087301480434" Id="5">
+  <Cavity Type="Cavity" Volume="224.134" Depth="13" DepthLength="9.8242903877572871" Id="5">
     <Boundary>
-      <Residues>TYR 45 A,THR 47 A,THR 49 A,GLY 52 A,THR 53 A,SER 114 A,VAL 115 A,ASN 118 A,ARG 119 A</Residues>
-      <Properties Charge="1" NumPositives="1" NumNegatives="0" Hydrophobicity="-0.57" Hydropathy="-0.67" Polarity="5.23" Mutability="91" />
+      <Residues>ARG 101 A,GLN 104 A,ASP 108 A,ARG 111 A,ASN 143 A,ASN 144 A,SER 146 A</Residues>
+      <Properties Charge="1" NumPositives="2" NumNegatives="1" Hydrophobicity="-0.79" Hydropathy="-1.90" Polarity="13.52" Mutability="94" />
     </Boundary>
     <Inner>
-      <Residues>THR 28 A,PRO 46 A,ASP 48 A,PHE 54 A,VAL 83 A,VAL 116 A,ILE 120 A</Residues>
-      <Properties Charge="-1" NumPositives="0" NumNegatives="1" Hydrophobicity="-0.15" Hydropathy="0.51" Polarity="5.52" Mutability="85" />
+      <Residues>GLY 100 A,LEU 103 A,LEU 107 A,MET 125 A,VAL 127 A,ALA 140 A,LEU 147 A</Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.06" Hydropathy="1.15" Polarity="1.83" Mutability="71" />
     </Inner>
-    <Properties Charge="0" NumPositives="1" NumNegatives="1" Hydrophobicity="-0.38" Hydropathy="-0.15" Polarity="5.36" Mutability="89" />
+    <Properties Charge="1" NumPositives="2" NumNegatives="1" Hydrophobicity="-0.43" Hydropathy="-0.38" Polarity="7.68" Mutability="83" />
   </Cavity>
-  <Cavity Type="Cavity" Volume="251.133" Depth="11" DepthLength="13.738074588910029" Id="6">
+  <Cavity Type="Cavity" Volume="176.008" Depth="11" DepthLength="12.003328293876596" Id="6">
     <Boundary>
-      <Residues>PHE 63 A,THR 64 A,MET 132 A,TRP 156 A,ILE 179 A</Residues>
-      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.11" Hydropathy="0.56" Polarity="2.26" Mutability="75" />
+      <Residues>TYR 5 A,GLU 148 A,ASP 233 A,GLU 261 A,HIE 264 A,HIE 267 A</Residues>
+      <Properties Charge="-3" NumPositives="0" NumNegatives="3" Hydrophobicity="-0.70" Hydropathy="-1.42" Polarity="17.14" Mutability="72" />
     </Boundary>
     <Inner>
-      <Residues>HIS 130 A,ALA 131 A,GLN 154 A,ALA 180 A,HIS 209 A</Residues>
-      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.45" Hydropathy="-0.83" Polarity="12.36" Mutability="93" />
+      <Residues>ARG 229 A,LEU 235 A,HID 265 A</Residues>
+      <Properties Charge="1" NumPositives="1" NumNegatives="0" Hydrophobicity="-0.34" Hydropathy="-0.38" Polarity="12.45" Mutability="68" />
     </Inner>
-    <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.17" Hydropathy="-0.14" Polarity="7.31" Mutability="84" />
+    <Properties Charge="-2" NumPositives="1" NumNegatives="3" Hydrophobicity="-0.58" Hydropathy="-1.07" Polarity="15.58" Mutability="71" />
   </Cavity>
-  <Cavity Type="Cavity" Volume="223.382" Depth="13" DepthLength="17.527177842644623" Id="7">
+  <Cavity Type="Cavity" Volume="132.083" Depth="24" DepthLength="16.288601150235611" Id="7">
     <Boundary>
-      <Residues>PRO 4 A,TYR 5 A,ARG 7 A,GLN 51 A,GLY 52 A,THR 53 A,ASP 121 A</Residues>
-      <Properties Charge="0" NumPositives="1" NumNegatives="1" Hydrophobicity="-0.62" Hydropathy="-1.31" Polarity="9.55" Mutability="74" />
+      <Residues>ARG 20 A,VAL 25 A,ALA 26 A,GLN 27 A</Residues>
+      <Properties Charge="1" NumPositives="1" NumNegatives="0" Hydrophobicity="-0.45" Hydropathy="-0.45" Polarity="8.65" Mutability="91" />
     </Boundary>
     <Inner>
-      <Residues>PHE 54 A,GLY 55 A,GLY 81 A,PHE 82 A,ARG 124 A,LYS 228 A,VAL 231 A,ASP 232 A</Residues>
-      <Properties Charge="1" NumPositives="2" NumNegatives="1" Hydrophobicity="-0.38" Hydropathy="-0.38" Polarity="11.19" Mutability="67" />
+      <Residues>PHE 23 A,ALA 24 A,TYR 44 A,TYR 45 A,PRO 46 A,PRO 75 A,ALA 78 A,SER 79 A,GLY 81 A</Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.31" Hydropathy="-0.23" Polarity="2.16" Mutability="70" />
     </Inner>
-    <Properties Charge="1" NumPositives="3" NumNegatives="2" Hydrophobicity="-0.49" Hydropathy="-0.81" Polarity="10.43" Mutability="70" />
+    <Properties Charge="1" NumPositives="1" NumNegatives="0" Hydrophobicity="-0.35" Hydropathy="-0.30" Polarity="4.15" Mutability="76" />
   </Cavity>
-  <Cavity Type="Cavity" Volume="133.215" Depth="13" DepthLength="13.930236679534975" Id="8">
+  <Cavity Type="Cavity" Volume="107.569" Depth="9" DepthLength="8.3460749868514679" Id="8">
     <Boundary>
-      <Residues>MET 1 A,ALA 2 A,GLU 6 A,ASP 10 A,GLN 51 A,LEU 235 A,ARG 236 A</Residues>
-      <Properties Charge="-1" NumPositives="1" NumNegatives="2" Hydrophobicity="-0.51" Hydropathy="-0.74" Polarity="12.88" Mutability="82" />
+      <Residues>GLU 17 A,THR 217 A,THR 218 A,ASP 247 A,PHE 248 A,ALA 249 A</Residues>
+      <Properties Charge="-2" NumPositives="0" NumNegatives="2" Hydrophobicity="-0.60" Hydropathy="-0.52" Polarity="10.30" Mutability="88" />
     </Boundary>
     <Inner>
-      <Residues>ASN 3 A,TYR 5 A,ARG 7 A,LYS 228 A,ASP 232 A,ASP 234 A</Residues>
-      <Properties Charge="0" NumPositives="2" NumNegatives="2" Hydrophobicity="-0.61" Hydropathy="-1.88" Polarity="18.85" Mutability="80" />
+      <Residues>LYS 221 A,ILE 250 A</Residues>
+      <Properties Charge="1" NumPositives="1" NumNegatives="0" Hydrophobicity="-0.05" Hydropathy="-0.05" Polarity="14.10" Mutability="87" />
     </Inner>
-    <Properties Charge="-1" NumPositives="3" NumNegatives="4" Hydrophobicity="-0.56" Hydropathy="-1.27" Polarity="15.64" Mutability="81" />
+    <Properties Charge="-1" NumPositives="1" NumNegatives="2" Hydrophobicity="-0.46" Hydropathy="-0.40" Polarity="11.25" Mutability="87" />
   </Cavity>
-  <Cavity Type="Cavity" Volume="132.691" Depth="13" DepthLength="13.462239496584976" Id="9">
+  <Cavity Type="Cavity" Volume="102.577" Depth="11" DepthLength="9.4735160116678756" Id="9">
     <Boundary>
-      <Residues>THR 28 A,THR 29 A,SER 31 A,GLN 34 A,VAL 115 A</Residues>
-      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.65" Hydropathy="-0.35" Polarity="2.56" Mutability="102" />
+      <Residues>THR 29 A,SER 31 A,ARG 32 A,GLN 67 A,ASP 88 A,ARG 92 A</Residues>
+      <Properties Charge="1" NumPositives="2" NumNegatives="1" Hydrophobicity="-0.79" Hydropathy="-1.66" Polarity="15.07" Mutability="93" />
     </Boundary>
     <Inner>
-      <Residues>VAL 30 A,GLY 41 A,THR 42 A,ILE 43 A,ILE 85 A,THR 86 A,ASN 113 A</Residues>
-      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.28" Hydropathy="0.36" Polarity="2.20" Mutability="96" />
+      <Residues>VAL 30 A,GLY 39 A,GLY 40 A,GLY 41 A,ILE 87 A</Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.35" Hydropathy="0.55" Polarity="1.72" Mutability="70" />
     </Inner>
-    <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.44" Hydropathy="0.07" Polarity="2.35" Mutability="98" />
+    <Properties Charge="1" NumPositives="2" NumNegatives="1" Hydrophobicity="-0.59" Hydropathy="-0.65" Polarity="9.00" Mutability="82" />
   </Cavity>
-  <Cavity Type="Cavity" Volume="112.098" Depth="9" DepthLength="11.249620666185685" Id="10">
+  <Cavity Type="Cavity" Volume="83.985" Depth="13" DepthLength="8.290322828139022" Id="10">
     <Boundary>
-      <Residues>ARG 20 A,VAL 25 A,GLN 27 A,PRO 75 A</Residues>
-      <Properties Charge="1" NumPositives="1" NumNegatives="0" Hydrophobicity="-0.46" Hydropathy="-0.88" Polarity="8.85" Mutability="80" />
+      <Residues>GLU 187 A,ALA 244 A,GLU 252 A,TYR 253 A,ARG 254 A</Residues>
+      <Properties Charge="-1" NumPositives="1" NumNegatives="2" Hydrophobicity="-0.56" Hydropathy="-1.30" Polarity="17.03" Mutability="77" />
     </Boundary>
     <Inner>
-      <Residues>TYR 44 A,TYR 45 A,PRO 46 A,ALA 78 A,SER 79 A</Residues>
-      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.28" Hydropathy="-0.52" Polarity="2.34" Mutability="75" />
+      <Residues>TYR 201 A,MET 202 A,GLU 203 A</Residues>
+      <Properties Charge="-1" NumPositives="0" NumNegatives="1" Hydrophobicity="-0.24" Hydropathy="-0.68" Polarity="10.51" Mutability="73" />
     </Inner>
-    <Properties Charge="1" NumPositives="1" NumNegatives="0" Hydrophobicity="-0.36" Hydropathy="-0.68" Polarity="5.23" Mutability="77" />
+    <Properties Charge="-2" NumPositives="1" NumNegatives="3" Hydrophobicity="-0.44" Hydropathy="-1.07" Polarity="14.59" Mutability="75" />
   </Cavity>
-  <Cavity Type="Void" Volume="73.115" Depth="2147483647" DepthLength="1.7976931348623157E+308" Id="1">
+  <Cavity Type="Cavity" Volume="56.342" Depth="10" DepthLength="14.44091413698631" Id="11">
+    <Boundary>
+      <Residues>GLY 37 A,ILE 90 A,SER 98 A,ARG 101 A</Residues>
+      <Properties Charge="1" NumPositives="1" NumNegatives="0" Hydrophobicity="-0.45" Hydropathy="-0.35" Polarity="8.42" Mutability="88" />
+    </Boundary>
+    <Inner>
+      <Residues>THR 89 A,ASP 94 A,ARG 99 A,GLN 102 A</Residues>
+      <Properties Charge="0" NumPositives="1" NumNegatives="1" Hydrophobicity="-0.82" Hydropathy="-1.73" Polarity="15.05" Mutability="90" />
+    </Inner>
+    <Properties Charge="1" NumPositives="2" NumNegatives="1" Hydrophobicity="-0.63" Hydropathy="-1.04" Polarity="11.73" Mutability="89" />
+  </Cavity>
+  <Cavity Type="Cavity" Volume="52.194" Depth="10" DepthLength="6.4827662247151032" Id="12">
+    <Boundary>
+      <Residues>VAL 19 A,PRO 215 A,THR 217 A</Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.36" Hydropathy="0.12" Polarity="2.25" Mutability="87" />
+    </Boundary>
+    <Inner>
+      <Residues>TRP 72 A,ARG 76 A,ASP 216 A,ALA 220 A</Residues>
+      <Properties Charge="0" NumPositives="1" NumNegatives="1" Hydrophobicity="-0.37" Hydropathy="-1.09" Polarity="14.67" Mutability="73" />
+    </Inner>
+    <Properties Charge="0" NumPositives="1" NumNegatives="1" Hydrophobicity="-0.36" Hydropathy="-0.57" Polarity="9.35" Mutability="79" />
+  </Cavity>
+  <Cavity Type="Void" Volume="401.567" Depth="2147483647" DepthLength="1.7976931348623157E+308" Id="1">
     <Boundary>
       <Residues></Residues>
       <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.00" Hydropathy="0.00" Polarity="0.00" Mutability="0" />
     </Boundary>
     <Inner>
-      <Residues>GLY 55 A,ALA 56 A,VAL 57 A,PHE 82 A,ARG 124 A,MET 125 A,ALA 126 A,GLU 148 A,VAL 231 A</Residues>
-      <Properties Charge="0" NumPositives="1" NumNegatives="1" Hydrophobicity="-0.27" Hydropathy="0.26" Polarity="7.46" Mutability="83" />
+      <Residues>MET 128 A,GLY 134 A,GLY 135 A,ALA 137 A,LEU 138 A,ALA 141 A,ALA 150 A,ILE 151 A,PRO 152 A,LEU 153 A,GLY 155 A,TRP 156 A,HIE 157 A,TRP 162 A,VAL 165 A,THR 167 A,THR 169 A,VAL 171 A,VAL 172 A,SER 186 A,PHE 189 A,LEU 193 A</Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.19" Hydropathy="0.53" Polarity="2.04" Mutability="75" />
     </Inner>
-    <Properties Charge="0" NumPositives="1" NumNegatives="1" Hydrophobicity="-0.27" Hydropathy="0.26" Polarity="7.46" Mutability="83" />
+    <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.19" Hydropathy="0.53" Polarity="2.04" Mutability="75" />
   </Cavity>
-  <Cavity Type="MolecularSurface" Volume="19582.449" Depth="2147483647" DepthLength="1.7976931348623157E+308" Id="0">
+  <Cavity Type="Void" Volume="149.830" Depth="2147483647" DepthLength="1.7976931348623157E+308" Id="2">
     <Boundary>
-      <Residues>MET 1 A,ALA 2 A,PRO 4 A,TYR 5 A,GLU 6 A,GLY 8 A,PRO 9 A,ASP 10 A,PRO 11 A,THR 12 A,GLU 13 A,SER 14 A,SER 15 A,GLU 17 A,ALA 18 A,VAL 19 A,ARG 20 A,GLY 21 A,PRO 22 A,ALA 24 A,VAL 25 A,ALA 26 A,GLN 27 A,THR 28 A,THR 29 A,SER 31 A,ARG 32 A,LEU 33 A,GLN 34 A,ALA 35 A,ASP 36 A,GLY 37 A,THR 42 A,TYR 44 A,TYR 45 A,THR 47 A,ASP 48 A,THR 49 A,SER 50 A,GLN 51 A,GLY 52 A,THR 53 A,PHE 63 A,THR 64 A,GLN 67 A,GLU 68 A,ALA 71 A,TRP 72 A,ASP 88 A,ILE 90 A,THR 91 A,ARG 92 A,LEU 93 A,ASP 94 A,GLN 95 A,ASP 97 A,SER 98 A,ARG 101 A,GLN 104 A,ASP 108 A,ARG 111 A,THR 112 A,SER 114 A,VAL 115 A,ARG 117 A,ASN 118 A,ARG 119 A,ILE 120 A,ASP 121 A,PRO 122 A,ASN 123 A,MET 132 A,ALA 142 A,ASN 143 A,ASN 144 A,THR 145 A,SER 146 A,GLU 148 A,TRP 156 A,THR 158 A,ARG 159 A,LYS 160 A,ASN 161 A,SER 163 A,SER 164 A,ARG 166 A,GLN 175 A,LEU 176 A,ASP 177 A,THR 178 A,ILE 179 A,PRO 181 A,SER 183 A,SER 184 A,HIS 185 A,GLU 187 A,ALA 188 A,ASN 191 A,SER 192 A,PRO 194 A,SER 195 A,ASP 196 A,GLU 203 A,ARG 205 A,GLY 206 A,SER 208 A,LEU 210 A,ASN 213 A,THR 214 A,PRO 215 A,ASP 216 A,THR 217 A,ASP 233 A,LEU 235 A,ARG 236 A,GLU 238 A,GLN 239 A,CYS 242 A,PRO 243 A,ALA 244 A,PRO 245 A,ASP 246 A,ASP 247 A,PHE 248 A,ALA 249 A,ILE 250 A,SER 251 A,GLU 252 A,TYR 253 A,ARG 254 A,SER 255 A,THR 256 A,CYS 257 A,PRO 258 A,LEU 260 A,GLU 261 A,HIS 262 A,HIS 263 A,HIS 264 A,HIS 265 A,HIS 266 A,HIS 267 A</Residues>
-      <Properties Charge="-11" NumPositives="13" NumNegatives="24" Hydrophobicity="-0.56" Hydropathy="-0.84" Polarity="10.04" Mutability="85" />
+      <Residues></Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.00" Hydropathy="0.00" Polarity="0.00" Mutability="0" />
     </Boundary>
     <Inner>
-      <Residues>ASN 3 A,ARG 7 A,ILE 16 A,PHE 23 A,VAL 30 A,PHE 38 A,GLY 39 A,GLY 40 A,GLY 41 A,ILE 43 A,PRO 46 A,PHE 54 A,GLY 55 A,ALA 56 A,VAL 57 A,ALA 58 A,ILE 59 A,SER 60 A,PRO 61 A,GLY 62 A,ALA 65 A,GLY 66 A,SER 69 A,ILE 70 A,LEU 73 A,GLY 74 A,PRO 75 A,ARG 76 A,ILE 77 A,ALA 78 A,SER 79 A,GLN 80 A,GLY 81 A,PHE 82 A,VAL 83 A,VAL 84 A,ILE 85 A,THR 86 A,ILE 87 A,THR 89 A,PRO 96 A,ARG 99 A,GLY 100 A,GLN 102 A,LEU 103 A,ALA 105 A,ALA 106 A,LEU 107 A,HIS 109 A,LEU 110 A,ASN 113 A,VAL 116 A,ARG 124 A,MET 125 A,ALA 126 A,VAL 127 A,MET 128 A,GLY 129 A,HIS 130 A,ALA 131 A,GLY 133 A,GLY 134 A,GLY 135 A,GLY 136 A,ALA 137 A,LEU 138 A,SER 139 A,ALA 140 A,ALA 141 A,LEU 147 A,ALA 149 A,ALA 150 A,ILE 151 A,PRO 152 A,LEU 153 A,GLN 154 A,GLY 155 A,HIS 157 A,TRP 162 A,VAL 165 A,THR 167 A,PRO 168 A,THR 169 A,LEU 170 A,VAL 171 A,VAL 172 A,GLY 173 A,ALA 174 A,ALA 180 A,VAL 182 A,SER 186 A,PHE 189 A,TYR 190 A,LEU 193 A,LEU 197 A,ASP 198 A,LYS 199 A,ALA 200 A,TYR 201 A,MET 202 A,LEU 204 A,ALA 207 A,HIS 209 A,VAL 211 A,SER 212 A,THR 218 A,THR 219 A,ALA 220 A,LYS 221 A,TYR 222 A,SER 223 A,ILE 224 A,ALA 225 A,TRP 226 A,LEU 227 A,LYS 228 A,ARG 229 A,PHE 230 A,VAL 231 A,ASP 232 A,ASP 234 A,TYR 237 A,PHE 240 A,LEU 241 A,PHE 259 A</Residues>
-      <Properties Charge="5" NumPositives="8" NumNegatives="3" Hydrophobicity="-0.27" Hydropathy="0.18" Polarity="5.03" Mutability="79" />
+      <Residues>ILE 59 A,SER 60 A,ILE 70 A,LEU 73 A,MET 128 A,GLY 129 A,HIE 130 A,LEU 153 A,HID 209 A,LEU 210 A,SER 212 A,ASN 213 A</Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.23" Hydropathy="0.55" Polarity="2.24" Mutability="84" />
     </Inner>
-    <Properties Charge="-6" NumPositives="21" NumNegatives="27" Hydrophobicity="-0.42" Hydropathy="-0.36" Polarity="7.69" Mutability="83" />
+    <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="-0.23" Hydropathy="0.55" Polarity="2.24" Mutability="84" />
+  </Cavity>
+  <Cavity Type="Void" Volume="145.292" Depth="2147483647" DepthLength="1.7976931348623157E+308" Id="3">
+    <Boundary>
+      <Residues></Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.00" Hydropathy="0.00" Polarity="0.00" Mutability="0" />
+    </Boundary>
+    <Inner>
+      <Residues>PHE 54 A,GLY 55 A,ALA 56 A,VAL 83 A,LEU 107 A,LEU 110 A,ARG 111 A,VAL 116 A,ILE 120 A,ASP 121 A,PRO 122 A,ARG 124 A,MET 125 A</Residues>
+      <Properties Charge="1" NumPositives="2" NumNegatives="1" Hydrophobicity="-0.17" Hydropathy="0.28" Polarity="7.76" Mutability="77" />
+    </Inner>
+    <Properties Charge="1" NumPositives="2" NumNegatives="1" Hydrophobicity="-0.17" Hydropathy="0.28" Polarity="7.76" Mutability="77" />
+  </Cavity>
+  <Cavity Type="Void" Volume="114.832" Depth="2147483647" DepthLength="1.7976931348623157E+308" Id="4">
+    <Boundary>
+      <Residues></Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.00" Hydropathy="0.00" Polarity="0.00" Mutability="0" />
+    </Boundary>
+    <Inner>
+      <Residues>TYR 5 A,ARG 7 A,THR 53 A,PHE 54 A,GLY 55 A,GLY 81 A,PHE 82 A,ARG 124 A,LYS 228 A,VAL 231 A,ASP 232 A</Residues>
+      <Properties Charge="2" NumPositives="3" NumNegatives="1" Hydrophobicity="-0.39" Hydropathy="-0.63" Polarity="11.11" Mutability="71" />
+    </Inner>
+    <Properties Charge="2" NumPositives="3" NumNegatives="1" Hydrophobicity="-0.39" Hydropathy="-0.63" Polarity="11.11" Mutability="71" />
+  </Cavity>
+  <Cavity Type="Void" Volume="79.665" Depth="2147483647" DepthLength="1.7976931348623157E+308" Id="5">
+    <Boundary>
+      <Residues></Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.00" Hydropathy="0.00" Polarity="0.00" Mutability="0" />
+    </Boundary>
+    <Inner>
+      <Residues>GLN 154 A,GLY 155 A,GLY 173 A,ALA 174 A,ASP 177 A,ALA 180 A,VAL 182 A,HIE 185 A,SER 186 A</Residues>
+      <Properties Charge="-1" NumPositives="0" NumNegatives="1" Hydrophobicity="-0.63" Hydropathy="-0.26" Polarity="5.03" Mutability="85" />
+    </Inner>
+    <Properties Charge="-1" NumPositives="0" NumNegatives="1" Hydrophobicity="-0.63" Hydropathy="-0.26" Polarity="5.03" Mutability="85" />
+  </Cavity>
+  <Cavity Type="Void" Volume="76.495" Depth="2147483647" DepthLength="1.7976931348623157E+308" Id="6">
+    <Boundary>
+      <Residues></Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.00" Hydropathy="0.00" Polarity="0.00" Mutability="0" />
+    </Boundary>
+    <Inner>
+      <Residues>ALA 56 A,VAL 57 A,PHE 82 A,ARG 124 A,MET 125 A,ALA 126 A,LEU 227 A,VAL 231 A</Residues>
+      <Properties Charge="1" NumPositives="1" NumNegatives="0" Hydrophobicity="-0.06" Hydropathy="0.80" Polarity="5.08" Mutability="84" />
+    </Inner>
+    <Properties Charge="1" NumPositives="1" NumNegatives="0" Hydrophobicity="-0.06" Hydropathy="0.80" Polarity="5.08" Mutability="84" />
+  </Cavity>
+  <Cavity Type="Void" Volume="72.382" Depth="2147483647" DepthLength="1.7976931348623157E+308" Id="7">
+    <Boundary>
+      <Residues></Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.00" Hydropathy="0.00" Polarity="0.00" Mutability="0" />
+    </Boundary>
+    <Inner>
+      <Residues>VAL 171 A,VAL 172 A,GLY 173 A,SER 186 A,GLU 187 A,TYR 190 A,TYR 201 A,MET 202 A,GLU 203 A,ARG 254 A</Residues>
+      <Properties Charge="-1" NumPositives="1" NumNegatives="2" Hydrophobicity="-0.35" Hydropathy="-0.45" Polarity="9.61" Mutability="79" />
+    </Inner>
+    <Properties Charge="-1" NumPositives="1" NumNegatives="2" Hydrophobicity="-0.35" Hydropathy="-0.45" Polarity="9.61" Mutability="79" />
+  </Cavity>
+  <Cavity Type="Void" Volume="61.977" Depth="2147483647" DepthLength="1.7976931348623157E+308" Id="8">
+    <Boundary>
+      <Residues></Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.00" Hydropathy="0.00" Polarity="0.00" Mutability="0" />
+    </Boundary>
+    <Inner>
+      <Residues>ILE 43 A,ALA 56 A,VAL 57 A,VAL 83 A,VAL 84 A,ILE 85 A,LEU 107 A,LEU 110 A</Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.18" Hydropathy="1.74" Polarity="1.75" Mutability="88" />
+    </Inner>
+    <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.18" Hydropathy="1.74" Polarity="1.75" Mutability="88" />
+  </Cavity>
+  <Cavity Type="Void" Volume="60.603" Depth="2147483647" DepthLength="1.7976931348623157E+308" Id="9">
+    <Boundary>
+      <Residues></Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.00" Hydropathy="0.00" Polarity="0.00" Mutability="0" />
+    </Boundary>
+    <Inner>
+      <Residues>VAL 57 A,ILE 59 A,ALA 126 A,VAL 127 A,MET 128 A,ALA 149 A,ALA 150 A,ILE 151 A,LEU 227 A</Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.05" Hydropathy="1.38" Polarity="1.81" Mutability="94" />
+    </Inner>
+    <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.05" Hydropathy="1.38" Polarity="1.81" Mutability="94" />
+  </Cavity>
+  <Cavity Type="Void" Volume="46.390" Depth="2147483647" DepthLength="1.7976931348623157E+308" Id="10">
+    <Boundary>
+      <Residues></Residues>
+      <Properties Charge="0" NumPositives="0" NumNegatives="0" Hydrophobicity="0.00" Hydropathy="0.00" Polarity="0.00" Mutability="0" />
+    </Boundary>
+    <Inner>
+      <Residues>TRP 226 A,ARG 229 A,PHE 230 A,GLU 238 A,LEU 241 A,PHE 259 A,GLU 261 A</Residues>
+      <Properties Charge="-1" NumPositives="1" NumNegatives="2" Hydrophobicity="-0.20" Hydropathy="-0.41" Polarity="12.74" Mutability="59" />
+    </Inner>
+    <Properties Charge="-1" NumPositives="1" NumNegatives="2" Hydrophobicity="-0.20" Hydropathy="-0.41" Polarity="12.74" Mutability="59" />
+  </Cavity>
+  <Cavity Type="MolecularSurface" Volume="19170.636" Depth="2147483647" DepthLength="1.7976931348623157E+308" Id="0">
+    <Boundary>
+      <Residues>MET 1 A,ALA 2 A,PRO 4 A,TYR 5 A,GLU 6 A,PRO 9 A,ASP 10 A,THR 12 A,GLU 13 A,SER 14 A,SER 15 A,GLU 17 A,ALA 18 A,VAL 19 A,ARG 20 A,GLY 21 A,PRO 22 A,ALA 24 A,VAL 25 A,ALA 26 A,GLN 27 A,THR 28 A,THR 29 A,SER 31 A,ARG 32 A,LEU 33 A,GLN 34 A,ASP 36 A,GLY 37 A,THR 42 A,TYR 45 A,THR 47 A,ASP 48 A,THR 49 A,SER 50 A,GLN 51 A,GLY 52 A,THR 53 A,PHE 63 A,THR 64 A,GLN 67 A,GLU 68 A,ALA 71 A,TRP 72 A,ASP 88 A,ILE 90 A,THR 91 A,ARG 92 A,LEU 93 A,ASP 94 A,GLN 95 A,ASP 97 A,SER 98 A,ARG 101 A,GLN 104 A,ASP 108 A,ARG 111 A,THR 112 A,SER 114 A,VAL 115 A,ARG 117 A,ASN 118 A,ARG 119 A,ASP 121 A,PRO 122 A,ASN 123 A,ALA 142 A,ASN 143 A,ASN 144 A,THR 145 A,SER 146 A,GLU 148 A,TRP 156 A,THR 158 A,ARG 159 A,LYS 160 A,ASN 161 A,SER 163 A,SER 164 A,ARG 166 A,GLN 175 A,LEU 176 A,THR 178 A,ILE 179 A,PRO 181 A,SER 183 A,SER 184 A,HIE 185 A,GLU 187 A,ALA 188 A,ASN 191 A,SER 192 A,PRO 194 A,SER 195 A,ASP 196 A,ARG 205 A,GLY 206 A,ALA 207 A,SER 208 A,LEU 210 A,VAL 211 A,THR 214 A,PRO 215 A,ASP 216 A,THR 217 A,ASP 233 A,ARG 236 A,GLN 239 A,PRO 243 A,ALA 244 A,ASP 246 A,ASP 247 A,PHE 248 A,ALA 249 A,SER 251 A,GLU 252 A,TYR 253 A,ARG 254 A,SER 255 A,THR 256 A,CYS 257 A,PRO 258 A,LEU 260 A,GLU 261 A,HID 262 A,HID 263 A,HIE 264 A,HIE 266 A,HIE 267 A</Residues>
+      <Properties Charge="-8" NumPositives="13" NumNegatives="21" Hydrophobicity="-0.60" Hydropathy="-0.81" Polarity="9.07" Mutability="87" />
+    </Boundary>
+    <Inner>
+      <Residues>ASN 3 A,ARG 7 A,GLY 8 A,PRO 11 A,ILE 16 A,PHE 23 A,VAL 30 A,ALA 35 A,PHE 38 A,GLY 39 A,GLY 40 A,GLY 41 A,ILE 43 A,TYR 44 A,PRO 46 A,PHE 54 A,GLY 55 A,ALA 56 A,VAL 57 A,ALA 58 A,ILE 59 A,SER 60 A,PRO 61 A,GLY 62 A,ALA 65 A,GLY 66 A,SER 69 A,ILE 70 A,LEU 73 A,GLY 74 A,PRO 75 A,ARG 76 A,ILE 77 A,ALA 78 A,SER 79 A,GLN 80 A,GLY 81 A,PHE 82 A,VAL 83 A,VAL 84 A,ILE 85 A,THR 86 A,ILE 87 A,THR 89 A,PRO 96 A,ARG 99 A,GLY 100 A,GLN 102 A,LEU 103 A,ALA 105 A,ALA 106 A,LEU 107 A,HID 109 A,LEU 110 A,ASN 113 A,VAL 116 A,ILE 120 A,ARG 124 A,MET 125 A,ALA 126 A,VAL 127 A,MET 128 A,GLY 129 A,HIE 130 A,ALA 131 A,MET 132 A,GLY 133 A,GLY 134 A,GLY 135 A,GLY 136 A,ALA 137 A,LEU 138 A,SER 139 A,ALA 140 A,ALA 141 A,LEU 147 A,ALA 149 A,ALA 150 A,ILE 151 A,PRO 152 A,LEU 153 A,GLN 154 A,GLY 155 A,HIE 157 A,TRP 162 A,VAL 165 A,THR 167 A,PRO 168 A,THR 169 A,LEU 170 A,VAL 171 A,VAL 172 A,GLY 173 A,ALA 174 A,ASP 177 A,ALA 180 A,VAL 182 A,SER 186 A,PHE 189 A,TYR 190 A,LEU 193 A,LEU 197 A,ASP 198 A,LYS 199 A,ALA 200 A,TYR 201 A,MET 202 A,GLU 203 A,LEU 204 A,HID 209 A,SER 212 A,ASN 213 A,THR 218 A,THR 219 A,ALA 220 A,LYS 221 A,TYR 222 A,SER 223 A,ILE 224 A,ALA 225 A,TRP 226 A,LEU 227 A,LYS 228 A,ARG 229 A,PHE 230 A,VAL 231 A,ASP 232 A,ASP 234 A,LEU 235 A,TYR 237 A,GLU 238 A,PHE 240 A,LEU 241 A,CYS 242 A,PRO 245 A,ILE 250 A,PHE 259 A,HID 265 A</Residues>
+      <Properties Charge="2" NumPositives="8" NumNegatives="6" Hydrophobicity="-0.29" Hydropathy="0.17" Polarity="4.63" Mutability="78" />
+    </Inner>
+    <Properties Charge="-6" NumPositives="21" NumNegatives="27" Hydrophobicity="-0.44" Hydropathy="-0.30" Polarity="6.77" Mutability="82" />
   </Cavity>
 </Cavities>

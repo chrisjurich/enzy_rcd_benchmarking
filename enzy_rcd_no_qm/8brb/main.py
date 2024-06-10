@@ -17,7 +17,7 @@ prefix='../../starting_points/8brb/'
 sp = eh.PDBParser()
 lp = eh.Mol2Parser()
 
-stru = sp.get_structure(f'{prefix}/full_chain_renumbered.pdb')
+stru = sp.get_structure(f'{prefix}/filled.pdb')
 UB7 = lp.get_ligand(f"./UB7.mol2")
 
 stru.add(UB7, chain_name='Z', net_charge= 0, multiplicity=1) 
@@ -25,13 +25,13 @@ stru.add(UB7, chain_name='Z', net_charge= 0, multiplicity=1)
 constraints = eh.structure.structure_constraints_from_xml(stru, "constraints.xml")
 
 
-eh.preparation.place_ligand(stru, 'Z', 1, method='mole2', constraints=constraints)
+eh.preparation.seed_ligand(stru, stru.get('Z.1'), method='mole2', constraints=constraints)
 sp.save_structure('assembled.pdb', stru)
-#eh.preparation.place_ligand(stru, 'B', 1)
+##eh.preparation.place_ligand(stru, 'B', 1)
+##
+##sp.save_structure('temp.pdb', stru)
+##stru = sp.get_structure('temp.pdb')
 #
-#sp.save_structure('temp.pdb', stru)
-#stru = sp.get_structure('temp.pdb')
-
 eh.dock_reactants( stru,
                     [stru.get('Z.1')],
                     constraints=constraints,
