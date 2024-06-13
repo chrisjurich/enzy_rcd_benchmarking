@@ -263,3 +263,4 @@ The following have been reloaded with a version change:
 [1m[33m[11:51 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_options.txt' exists and will be overwritten[0m
 [1m[33m[11:51 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_protocol.xml' exists and will be overwritten[0m
 [1m[11:51 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/1nbh/scratch/rosetta_options.txt`...[0m
+slurmstepd: error: *** JOB 63366293 ON cn1464 CANCELLED AT 2024-06-10T22:24:46 DUE TO TIME LIMIT ***

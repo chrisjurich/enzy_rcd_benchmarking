@@ -24,11 +24,11 @@ stru.add(ACT, chain_name='Z', net_charge=-1, multiplicity=1)
 
 constraints = eh.structure.structure_constraints_from_xml(stru, "constraints.xml")
 
-eh.preparation.seed_ligand(stru, stru.get('Y.1'), method='alphafill')
-eh.preparation.seed_ligand(stru, stru.get('Z.1'), method='mole2', constraints=constraints)
+eh.preparation.seed_with_transplants(stru.get('Y.1'), 'atom_names')
+eh.preparation.seed_with_constraints(stru.get('Z.1'), constraints )
 
 sp.save_structure('assembled.pdb', stru)
-
+exit( 0 )
 eh.dock_reactants( stru,
                     [stru.get('Z.1')],
                     constraints=constraints,

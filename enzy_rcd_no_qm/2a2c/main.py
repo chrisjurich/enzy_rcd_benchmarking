@@ -31,8 +31,7 @@ constraints = eh.structure.structure_constraints_from_xml(stru, "constraints.xml
 
 stru.assign_ncaa_chargespin({'ADP':(-3,1),'NG1':(-2,1),'MG':(2,1)})
 
-eh.preparation.seed_ligand(stru, stru.get('Y.1') )
-#eh.preparation.seed_ligand(stru, stru.get('Z.1') )
+eh.preparation.seed_ligand(stru, stru.get('Y.1'), method='alphafill' )
 #eh.preparation.place_ligand(stru, 'B', 1)
 eh.preparation.place_ligand(stru, 'Z', 1, method='mole2', constraints=constraints)
 #sp.save_structure('assembled.pdb', stru)

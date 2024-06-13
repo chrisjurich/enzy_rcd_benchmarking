@@ -8,7 +8,7 @@ prefix='../../starting_points/1bg0/'
 eh.config['mole2.MONO'] = "/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono"
 eh.config['mole2.PROBE'] = 5.0
 eh.config['mole2.INNER'] = 1.05
-eh.config['mole2.IGNORE_HETATM'] = True
+eh.config['mole2.IGNORE_HETATM'] = False
 
 #TODO(CJ): need to put the other place_ligand() method
 
@@ -29,17 +29,15 @@ stru.add(DAR, chain_name='Z', net_charge= 1, multiplicity=1)
 
 constraints = eh.structure.structure_constraints_from_xml(stru, "constraints.xml")
 
-eh.preparation.seed_ligand(stru, 'X', 1)
-eh.preparation.seed_ligand(stru, 'Y', 1, method='mole2', constraints=[constraints[-1]])
-eh.preparation.seed_ligand(stru, 'Z', 1, method='mole2', constraints=[constraints[-2]])
-
-
-eh.preparation.place_ligand(stru, 'B', 1)
-
+eh.preparation.seed_ligand(stru, stru.get('X.1'), method='alphafill')
+eh.preparation.seed_ligand(stru, stru.get('Y.1'), method='mole2', constraints=[constraints[-1]], minimize=True)
+sp.save_structure('temp.pdb', stru)
+eh.preparation.seed_ligand(stru, stru.get('Z.1'), method='mole2', constraints=[constraints[-2]])
+eh.preparation.seed_ligand(stru, stru.get('B.1'), method='alphafill')
 
 
 sp.save_structure('temp.pdb', stru)
-
+exit( 0 )
 
 
 eh.dock_reactants( stru,
