@@ -76,14 +76,14 @@
    J. Seibert, P. Shushkov, S. Spicher, M. Stahn, M. Steiner, T. Strunk,
    J. Stückrath, T. Rose, and J. Unsleber
    
- * started run on 2024/06/10 at 10:56:19.252     
+ * started run on 2024/06/14 at 23:42:58.612     
 
            -------------------------------------------------
           |                Calculation Setup                |
            -------------------------------------------------
 
           program call               : /home/jurichc/xtb-6.6.1/bin/xtb --chrg 0 --iterations 1000 --parallel 1 --norestart --sp /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol
-          hostname                   : cn1436
+          hostname                   : cn1603
           coordinate file            : /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/8brb/QM_SPE/xtb_coords.mol
           omp threads                :                     1
 
@@ -186,8 +186,8 @@ constraining FC (au)   :  0.0500
   23   -333.1675349 -0.768687E-04  0.847E-03    0.07       1.0  T
   24   -333.1675733 -0.383551E-04  0.273E-03    0.07       2.5  T
   25   -333.1675775 -0.419938E-05  0.366E-04    0.07      18.8  T
-  26   -333.1675775 -0.508282E-07  0.775E-05    0.07      88.8  T
-  27   -333.1675775 -0.189976E-08  0.649E-05    0.07     106.0  T
+  26   -333.1675775 -0.508269E-07  0.775E-05    0.07      88.8  T
+  27   -333.1675775 -0.190090E-08  0.649E-05    0.07     106.0  T
 
    *** convergence criteria satisfied after 27 iterations ***
 
@@ -213,27 +213,27 @@ constraining FC (au)   :  0.0500
                   HL-Gap            0.0027270 Eh            0.0742 eV
              Fermi-level           -0.2890070 Eh           -7.8643 eV
 
- SCC (total)                   0 d,  0 h,  0 min,  4.192 sec
- SCC setup                      ...        0 min,  0.010 sec (  0.245%)
- Dispersion                     ...        0 min,  0.017 sec (  0.408%)
- classical contributions        ...        0 min,  0.003 sec (  0.080%)
- integral evaluation            ...        0 min,  0.141 sec (  3.371%)
- iterations                     ...        0 min,  3.281 sec ( 78.276%)
- molecular gradient             ...        0 min,  0.718 sec ( 17.124%)
- printout                       ...        0 min,  0.021 sec (  0.493%)
+ SCC (total)                   0 d,  0 h,  0 min,  3.120 sec
+ SCC setup                      ...        0 min,  0.004 sec (  0.139%)
+ Dispersion                     ...        0 min,  0.010 sec (  0.318%)
+ classical contributions        ...        0 min,  0.003 sec (  0.092%)
+ integral evaluation            ...        0 min,  0.106 sec (  3.386%)
+ iterations                     ...        0 min,  2.498 sec ( 80.055%)
+ molecular gradient             ...        0 min,  0.487 sec ( 15.596%)
+ printout                       ...        0 min,  0.013 sec (  0.413%)
 
          :::::::::::::::::::::::::::::::::::::::::::::::::::::
          ::                     SUMMARY                     ::
          :::::::::::::::::::::::::::::::::::::::::::::::::::::
          :: total energy            -279.030311946093 Eh    ::
-         :: gradient norm            291.216605703036 Eh/a0 ::
-         :: HOMO-LUMO gap              0.074206617253 eV    ::
+         :: gradient norm            291.216605703035 Eh/a0 ::
+         :: HOMO-LUMO gap              0.074206617274 eV    ::
          ::.................................................::
          :: SCC energy              -333.167577503803 Eh    ::
-         :: -> isotropic ES            0.792191094346 Eh    ::
-         :: -> anisotropic ES          0.048833629455 Eh    ::
-         :: -> anisotropic XC          0.172233384260 Eh    ::
-         :: -> dispersion             -0.275766794397 Eh    ::
+         :: -> isotropic ES            0.792191094328 Eh    ::
+         :: -> anisotropic ES          0.048833629453 Eh    ::
+         :: -> anisotropic XC          0.172233384262 Eh    ::
+         :: -> dispersion             -0.275766794398 Eh    ::
          :: repulsion energy          54.115847953050 Eh    ::
          :: add. restraining           0.000000000000 Eh    ::
          :: total charge               0.000000000856 e     ::
@@ -788,19 +788,19 @@ molecular quadrupole (traceless):
 
            -------------------------------------------------
           | TOTAL ENERGY             -279.030311946093 Eh   |
-          | GRADIENT NORM             291.216605703036 Eh/α |
-          | HOMO-LUMO GAP               0.074206617253 eV   |
+          | GRADIENT NORM             291.216605703035 Eh/α |
+          | HOMO-LUMO GAP               0.074206617274 eV   |
            -------------------------------------------------
 
 ------------------------------------------------------------------------
- * finished run on 2024/06/10 at 10:56:23.669     
+ * finished run on 2024/06/14 at 23:43:02.157     
 ------------------------------------------------------------------------
  total:
- * wall-time:     0 d,  0 h,  0 min,  4.414 sec
- *  cpu-time:     0 d,  0 h,  0 min,  4.376 sec
- * ratio c/w:     0.991 speedup
+ * wall-time:     0 d,  0 h,  0 min,  3.544 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  3.244 sec
+ * ratio c/w:     0.915 speedup
  SCF:
- * wall-time:     0 d,  0 h,  0 min,  4.196 sec
- *  cpu-time:     0 d,  0 h,  0 min,  4.186 sec
+ * wall-time:     0 d,  0 h,  0 min,  3.124 sec
+ *  cpu-time:     0 d,  0 h,  0 min,  3.117 sec
  * ratio c/w:     0.998 speedup
 

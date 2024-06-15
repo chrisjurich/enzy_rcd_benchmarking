@@ -24,7 +24,7 @@ stru.add(CPD, chain_name='Z', net_charge=1, multiplicity=1)
 constraints = eh.structure.structure_constraints_from_xml(stru, "constraints.xml")
 
 
-eh.preparation.seed_ligand(stru, stru.get('Z.1'), method='mole2', constraints=constraints, minimize=True)
+eh.preparation.seed_with_constraints(stru.get('Z.1'), constraints, minimize=True)
 sp.save_structure('assembled.pdb', stru)
 
 
@@ -39,4 +39,4 @@ eh.dock_reactants( stru,
                     clash_cutoff=50
                     )
 
-sp.save_structure('final.pdb', stru)
+sp.save_structure('2dqt_enzy_rcd_no_qm.pdb', stru)

@@ -28,7 +28,7 @@ eh.preparation.seed_with_transplants(stru.get('Y.1'), 'atom_names')
 eh.preparation.seed_with_constraints(stru.get('Z.1'), constraints )
 
 sp.save_structure('assembled.pdb', stru)
-exit( 0 )
+
 eh.dock_reactants( stru,
                     [stru.get('Z.1')],
                     constraints=constraints,
@@ -38,4 +38,4 @@ eh.dock_reactants( stru,
                     cst_energy=2000,
                     )
 
-sp.save_structure('result.pdb', stru)
+sp.save_structure('1nbh_enzy_rcd_no_qm.pdb', stru)

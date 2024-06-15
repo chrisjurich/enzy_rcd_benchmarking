@@ -31,16 +31,15 @@ constraints = eh.structure.structure_constraints_from_xml(stru, "constraints.xml
 
 stru.assign_ncaa_chargespin({'ADP':(-3,1),'NG1':(-2,1),'MG':(2,1)})
 
-eh.preparation.seed_ligand(stru, stru.get('Y.1'), method='alphafill' )
+eh.preparation.seed_with_transplants(stru.get('Y.1'), 'atom_names')
 #eh.preparation.place_ligand(stru, 'B', 1)
-eh.preparation.place_ligand(stru, 'Z', 1, method='mole2', constraints=constraints)
+eh.preparation.seed_with_transplants(stru.get('B.1'), 'atom_names')
+eh.preparation.seed_with_constraints(stru.get('Z.1'), [constraints[0]])
 #sp.save_structure('assembled.pdb', stru)
-eh.preparation.seed_ligand(stru, stru.get('B.1') )
 #eh.preparation.place_ligand(stru, 'B', 1)
 #
 sp.save_structure('temp.pdb', stru)
 #stru = sp.get_structure('temp.pdb')
-exit( 0 )
 eh.dock_reactants( stru,
                     [stru.get('Z.1')],
                     constraints=constraints,
@@ -51,4 +50,4 @@ eh.dock_reactants( stru,
                     )
 
 
-sp.save_structure('result.pdb', stru )
+sp.save_structure('2a2c_enzy_rcd_no_qm.pdb', stru )

@@ -32,38 +32,41 @@ The following have been reloaded with a version change:
 The following have been reloaded with a version change:
   1) Gaussian/.16.B.01-SSE4.2 => Gaussian/.16.B.01-AVX2
 
-[1m[10:29 EnzyHTP load_config] INFO Found config file: /home/jurichc/.eh_config...[0m
-[1m[10:29 EnzyHTP load_config] INFO Updated 8 config settings![0m
-[1m[10:29 EnzyHTP check_environment] INFO Beginning environment check...[0m
-[1m[10:29 EnzyHTP check_environment] INFO Environment check complete![0m
-[1m[33m[10:29 EnzyHTP check_environment] WARNING The following executables are missing:[0m
-[1m[33m[10:29 EnzyHTP check_environment] WARNING       mono[0m
-[1m[33m[10:29 EnzyHTP check_environment] WARNING Some elements are missing in environment. Not all functionality will be possible.[0m
-[1m[10:29 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
-[1m[33m[10:29 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/__temp.pdb' exists and will be overwritten[0m
-[1m[33m[10:29 EnzyHTP run_command] WARNING (dev-only) Using unregistered executable: '/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono'[0m
-[1m[33m[10:29 EnzyHTP run_command] WARNING     Please add it to corresponding config.required_executables if this is a long-term use[0m
-[1m[10:29 EnzyHTP run_command] INFO Running command: `/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono $HOME/Mole2/mole2.exe /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/__mole2_input.xml`...[0m
-[1m[10:30 EnzyHTP run_command] INFO finished `/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono $HOME/Mole2/mole2.exe /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/__mole2_input.xml` after 1 tries @2024-06-10 10:30:00[0m
-[1m[10:30 EnzyHTP identify_cavities] INFO Found 15 cavities using probe radius of 5.000 A and inner radius of 1.050 A[0m
-[1m[10:30 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
-[1m[33m[10:30 EnzyHTP write_lines] WARNING The file 'assembled.pdb' exists and will be overwritten[0m
-[1m[10:30 EnzyHTP dock_ligand] INFO Beginning RosettaLigand geometry sampling step...[0m
-[1m[10:30 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
-[1m[10:30 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_options.txt`...[0m
-[1m[33m[11:01 EnzyHTP run_command] WARNING Error running /dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_options.txt: CalledProcessError(1, '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_options.txt')[0m
-[1m[31m[11:01 EnzyHTP run_command] ERROR Failed running `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_options.txt` after 1 tries @2024-06-10 11:01:57[0m
+[1m[00:57 EnzyHTP load_config] INFO Found config file: /home/jurichc/.eh_config...[0m
+[1m[00:57 EnzyHTP load_config] INFO Updated 8 config settings![0m
+[1m[00:57 EnzyHTP check_environment] INFO Beginning environment check...[0m
+[1m[00:57 EnzyHTP check_environment] INFO Environment check complete![0m
+[1m[33m[00:57 EnzyHTP check_environment] WARNING The following executables are missing:[0m
+[1m[33m[00:57 EnzyHTP check_environment] WARNING       mono[0m
+[1m[33m[00:57 EnzyHTP check_environment] WARNING Some elements are missing in environment. Not all functionality will be possible.[0m
+[1m[00:57 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[00:57 EnzyHTP run_command] WARNING (dev-only) Using unregistered executable: '/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono'[0m
+[1m[33m[00:57 EnzyHTP run_command] WARNING     Please add it to corresponding config.required_executables if this is a long-term use[0m
+[1m[00:57 EnzyHTP run_command] INFO Running command: `/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono $HOME/Mole2/mole2.exe /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/__mole2_input.xml`...[0m
+[1m[00:57 EnzyHTP run_command] INFO finished `/accre/arch/easybuild/software/Compiler/GCCcore/6.4.0/Mono/5.4.1.6/bin/mono $HOME/Mole2/mole2.exe /panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/__mole2_input.xml` after 1 tries @2024-06-15 00:57:45[0m
+[1m[00:57 EnzyHTP identify_cavities] INFO Found 15 cavities using probe radius of 5.000 A and inner radius of 1.050 A[0m
+[1m[00:58 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[00:58 EnzyHTP write_lines] WARNING The file 'assembled.pdb' exists and will be overwritten[0m
+[1m[33m[00:58 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/constraints.cst' exists and will be overwritten[0m
+[1m[00:58 EnzyHTP dock_ligand] INFO Beginning RosettaLigand geometry sampling step...[0m
+[1m[00:58 EnzyHTP renumber_atoms] INFO renumbering atoms[0m
+[1m[33m[00:58 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosettascripts_start.pdb' exists and will be overwritten[0m
+[1m[33m[00:58 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_options.txt' exists and will be overwritten[0m
+[1m[33m[00:58 EnzyHTP write_lines] WARNING The file '/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_protocol.xml' exists and will be overwritten[0m
+[1m[00:58 EnzyHTP run_command] INFO Running command: `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_options.txt`...[0m
+[1m[33m[01:27 EnzyHTP run_command] WARNING Error running /dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_options.txt: CalledProcessError(1, '/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_options.txt')[0m
+[1m[31m[01:27 EnzyHTP run_command] ERROR Failed running `/dors/meilerlab/apps/rosetta/rosetta-3.13/main//source/bin/rosetta_scripts.linuxgccrelease @/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/scratch/rosetta_options.txt` after 1 tries @2024-06-15 01:27:21[0m
 Traceback (most recent call last):
   File "/panfs/accrepfs.vampire/data/yang_lab/jurichc/enzy_rcd_benchmarking/enzy_rcd_no_qm/3r3v/main.py", line 31, in <module>
     eh.dock_reactants( stru,
-  File "/panfs/accrepfs.vampire/home/jurichc/EnzyHTP/enzy_htp/preparation/reactive_docking.py", line 166, in dock_reactants
+  File "/panfs/accrepfs.vampire/home/jurichc/EnzyHTP/enzy_htp/preparation/reactive_docking.py", line 167, in dock_reactants
     dock_ligand(structure,
-  File "/panfs/accrepfs.vampire/home/jurichc/EnzyHTP/enzy_htp/preparation/reactive_docking.py", line 341, in dock_ligand
+  File "/panfs/accrepfs.vampire/home/jurichc/EnzyHTP/enzy_htp/preparation/reactive_docking.py", line 335, in dock_ligand
     interface.rosetta.run_rosetta_scripts(
   File "/panfs/accrepfs.vampire/home/jurichc/EnzyHTP/enzy_htp/_interface/rosetta_interface.py", line 1022, in run_rosetta_scripts
     self.env_manager_.run_command(self.config_.ROSETTA_SCRIPTS, [f"@{opts_file}"], quiet_fail=True)
   File "/panfs/accrepfs.vampire/home/jurichc/EnzyHTP/enzy_htp/core/env_manager.py", line 221, in run_command
-    raise this_error
+    if not quiet_fail:
   File "/panfs/accrepfs.vampire/home/jurichc/EnzyHTP/enzy_htp/core/env_manager.py", line 200, in run_command
     this_run = run(cmd, timeout=timeout, check=True, text=True, shell=True, capture_output=True)
   File "/nobackup/yang_lab/jurichc/miniconda3/envs/EnzyRCD/lib/python3.9/subprocess.py", line 524, in run

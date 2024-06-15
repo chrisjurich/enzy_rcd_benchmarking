@@ -6,7 +6,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=10
 #SBATCH --mem=10G
-#SBATCH --time=12:00:00
+#SBATCH --time=36:00:00
 source $HOME/setup-accre.sh
 
 #TODO(CJ)
